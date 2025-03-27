@@ -1,38 +1,48 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: 🐛 Bug Report
+about: Help us improve by reporting an issue or unexpected behavior
+title: '[Bug] '
+labels: bug
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 🐞 Describe the Bug
 
-**To Reproduce**
+Please describe clearly and concisely what the bug is and how it affects the project.
+
+## 🔁 Steps to Reproduce
+
 Steps to reproduce the behavior:
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+2. Click on '...'
+3. Observe the issue at '...'
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## ✅ Expected Behavior
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+What did you expect to happen instead?
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 🖼️ Screenshots
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+If applicable, please add screenshots to help us understand the issue.
 
-**Additional context**
-Add any other context about the problem here.
+## 💻 Environment (Desktop)
+
+- OS: [e.g. macOS, Windows, Linux]
+- Browser: [e.g. Chrome, Firefox, Safari]
+- Browser Version: [e.g. 123.0.1]
+
+## 📱 Environment (Mobile)
+
+- Device: [e.g. iPhone 12, Pixel 7]
+- OS: [e.g. iOS 17, Android 13]
+- Browser: [e.g. Safari, Chrome]
+- Version: [e.g. 115.1]
+
+## 🧩 Additional Context
+
+Any other context or notes that might be useful for debugging.
+
+---
+
+✨ Thank you for helping us make CANW better!
