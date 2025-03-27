@@ -1,8 +1,12 @@
-blank_issues_enabled: true
+blank_issues_enabled: false # 「空のIssue作成」を非表示にする（推奨）
+
 contact_links:
   - name: CANW Community Support
     url: https://github.com/satoshi-create/complexity-and-network-webdesign/discussions
     about: "Join community discussions or ask questions here."
-  - name: CANW Documentation
-    url: https://github.com/satoshi-create/complexity-and-network-webdesign/wiki
-    about: "Check out the documentation for further details."
+ - name: 🛡️ Code of Conduct
+    url: https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/CODE_OF_CONDUCT.md
+    about: Please review our community guidelines before participating.
+ - name: 🌱 Project Overview
+    url: https://github.com/satoshi-create/complexity-and-network-webdesign#readme
+    about: Read the README for the concept behind complexity-and-network-webdesign.
