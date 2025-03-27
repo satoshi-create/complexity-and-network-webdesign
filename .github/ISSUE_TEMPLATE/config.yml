@@ -4,11 +4,11 @@ contact_links:
   - name: CANW Community Support
     url: https://github.com/satoshi-create/complexity-and-network-webdesign/discussions
     about: "Join community discussions or ask questions here."
-    
- - name: 🛡️ Code of Conduct
+
+  - name: 🛡️ Code of Conduct
     url: https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/CODE_OF_CONDUCT.md
     about: Please review our community guidelines before participating.
-    
- - name: 🌱 Project Overview
+
+  - name: 🌱 Project Overview
     url: https://github.com/satoshi-create/complexity-and-network-webdesign#readme
     about: Read the README for the concept behind complexity-and-network-webdesign.
