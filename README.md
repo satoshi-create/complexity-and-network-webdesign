@@ -9,17 +9,21 @@ In the AI era, our mission is to authentically express complexity through web de
 - Cultural
 - Emergent
 
-## 🚀 Subprojects
-CANW currently includes (and will continue to expand with) the following subprojects:
+## 🧭 Explore the CANW Ecosystem
 
-- **TensorFlow.js Playground**  
-  Intuitive experiments using AI models directly in your browser.
+### 📂 Subprojects
+- [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)
+- [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)
+- [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)
 
-- **from RDB to Network**  
-  Extracting networks from relational databases (RDB) to visualize and analyze complex relationships. Examples include fungal networks, shrine networks, and music (Bach) networks.
+### 🔬 Experimental Areas
+- [🧪 Experiments](./experiments/README.md)
 
-- **Horizontal Scroll Emaki**  
-  Interactive web experiences of traditional Japanese scroll paintings (Emaki) through horizontal scrolling, GIS integration, and image optimization.
+### 🤖 AI Collaboration
+- [🤝 AI + Automation](./ai-collaboration/README.md)
+
+### 🖼️ Media & Visuals
+- [📷 Media Library](./media/README.md)
 
 ## 🌟 Contributors Welcome!
 CANW is just beginning, full of possibilities and room for new ideas.
