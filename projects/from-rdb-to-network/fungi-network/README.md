@@ -14,10 +14,4 @@ This project explores the structure and growth of fungal mycelium networks using
 - `scripts/`: Python scripts using NetworkX
 - `notebooks/`: Colab-friendly exploration notebooks
 
-## 🧠 Inspired by
-
-- Paul Stamets, _Mycelium Running_
-- Barabási’s network science
-- Anna Tsing’s ethnography of fungi
-
 > Fungal networks show us that intelligence isn’t centralized — it’s distributed, adaptive, and relational.

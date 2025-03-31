@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "type": "core"
+    },
+    {
+      "id": "B",
+      "type": "branch"
+    },
+    {
+      "id": "C",
+      "type": "branch"
+    },
+    {
+      "id": "D",
+      "type": "branch"
+    },
+    {
+      "id": "E",
+      "type": "tip"
+    },
+    {
+      "id": "F",
+      "type": "tip"
+    },
+    {
+      "id": "G",
+      "type": "tip"
+    }
+  ],
+  "links": [
+    {
+      "source": "A",
+      "target": "B",
+      "weight": 3
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "weight": 1
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "weight": 2
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "weight": 1
+    },
+    {
+      "source": "D",
+      "target": "G",
+      "weight": 1
+    }
+  ]
+}
