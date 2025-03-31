@@ -6,7 +6,7 @@ This project explores the structure and growth of fungal mycelium networks using
 
 - Visualize fungal networks as interactive or static graphs
 - Experiment with different network topologies (grid, random, etc.)
-- Prepare JSON/CSV datasets and enable data-driven visualization
+- Prepare JSON/CSV/RDB datasets and enable data-driven visualization
 
 ## 📂 Structure
 
