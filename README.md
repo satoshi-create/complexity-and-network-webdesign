@@ -50,7 +50,7 @@ Whether you're into data, design, storytelling, or system thinking, we welcome y
 Have an idea you want to grow?
 - ✏️ Start with our [Project Proposal Template](./docs/new_project_propesal/new_project_propesal.md)
 - 🌿 Explore a live example: [Mycelium Network Mapper](./docs/new_project_propesal/sample/mycelium-network-mapper.md)
-- 💬 Not sure where to start? Open a [Discussion](https://github.com/satoshi-create/complexity-and-network-webdesign/discussions) or draft an idea in an Issue
+- 💬 Ready to share? Post your idea to our [💡 Proposals Discussions](https://github.com/satoshi-create/discussions/categories/proposals)
 
 Your idea doesn't have to be polished — sketches, seeds, and half-formed thoughts are welcome.
 We grow ideas together here.
