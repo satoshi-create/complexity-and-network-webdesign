@@ -15,3 +15,7 @@ This project explores the structure and growth of fungal mycelium networks using
 - `notebooks/`: Colab-friendly exploration notebooks
 
 > Fungal networks show us that intelligence isn’t centralized — it’s distributed, adaptive, and relational.
+>
+> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/main/projects/from-rdb-to-network/fungi-network/notebooks/fungi-network.ipynb)
+
