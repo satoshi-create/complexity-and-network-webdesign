@@ -16,6 +16,9 @@ In the AI era, our mission is to authentically express complexity through web de
 - [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)  
   Play with machine learning in the browser and explore interactive AI demos.
 
+    - [🎼 Sound Pattern Generator (MVP)](./projects/tensorflowjs-playground/sound-pattern-generator/README.md)  
+   An interactive experiment to generate simple musical patterns and learn user preferences using TensorFlow.js.  
+
 - [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)  
   A journey from structured datasets to emergent network visualizations.
 
