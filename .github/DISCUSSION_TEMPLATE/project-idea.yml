@@ -1,0 +1,25 @@
+name: 💡 New Project Idea
+about: Propose a new project idea or direction
+title: "[Idea] "
+labels: ["proposal", "idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your idea! Please follow the prompts below.
+  - type: input
+    id: title
+    attributes:
+      label: Project Title
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+  - type: textarea
+    id: goals
+    attributes:
+      label: What do you hope to achieve?
+  - type: textarea
+    id: why
+    attributes:
+      label: How is it related to CANW?
