@@ -1,63 +1,58 @@
-# 🧠 CANW Glossary
+# 🧭 CANW Documentation
 
-Welcome to the **CANW (Complexity And Network Webdesign)** glossary.
-This document defines core terms and concepts used across the project to help align understanding among contributors, designers, and developers.
+Welcome to the documentation for **CANW (Complexity And Network Webdesign)** — a creative, emergent, and open-source initiative exploring complexity through web technologies.
 
----
-
-## 🌱 Core Concepts
-
-### Complexity
-A system characterized by many interacting parts, where the whole exhibits properties that the parts alone do not. Complexity is often nonlinear, adaptive, and difficult to predict.
-
-### Emergence
-The spontaneous appearance of patterns, structures, or behaviors in a complex system, often from simple local rules or interactions.
-
-### Network
-A structure made of nodes (entities) and edges (connections) representing relationships, flows, or influences within a system.
-
-### Swarm Intelligence
-A type of collective behavior arising from decentralized, self-organized systems, often seen in nature (e.g. ants, birds) and modeled in AI.
-
-### Rhizome
-Borrowed from plant biology and Deleuzian theory, a rhizome is a non-hierarchical, interconnected structure — used here to describe non-linear, non-centralized web systems.
-
-### Mycelium
-The root-like structure of fungi, representing a living network of resource-sharing — metaphorically central to CANW’s biological inspiration.
+This folder contains concept definitions, project roadmaps, glossaries, and contribution templates to help you get oriented and participate in the CANW ecosystem.
 
 ---
 
-## 🎨 Cultural and Design Terms
+## 📘 Available Documents
 
-### Emaki (絵巻)
-Japanese picture scrolls that unfold horizontally, combining text and images into continuous narratives. Influential in CANW’s visual storytelling approach.
+### 📚 [Concepts](./concepts.md)
+Deep dive into the foundational ideas behind CANW: complexity, networks, and "expressing the complex as complex."
 
-### Scroll Narrative
-A form of web-based visual storytelling that mimics the unfolding nature of Emaki or digital comics.
+### 🗺️ [Roadmap](./roadmap.md)
+A living document that outlines short-term and long-term directions across all subprojects.
 
-### Interactivity
-The quality of a system that allows users to engage, explore, and influence it — a key feature of CANW interfaces.
+### 🧠 [Glossary](./glossary.md)
+Definitions of key terms used throughout the project — useful for newcomers and collaborators alike.
 
-### Generative Design
-Designs created or co-created by algorithms, AI models, or procedural rules. Embraced in CANW for emergent and collaborative creativity.
-
----
-
-## 🧰 Technical Terms
-
-### RDB (Relational Database)
-A structured database model where data is stored in tables and relationships are defined between entities. CANW explores how to transform RDB data into networks.
-
-### JSON / CSV
-Common data formats used for storing structured information. Often used in CANW to load or visualize datasets.
-
-### NetworkX
-A Python library for creating, analyzing, and visualizing networks. Used in CANW’s data and fungi network experiments.
-
-### TensorFlow.js
-A JavaScript library for machine learning in the browser. Used in CANW’s interactive demos and AI experiments.
+### 🆕 [New Project Proposal Template](./new_project_proposal.md)
+A helpful guide for proposing and structuring new subprojects within CANW.
 
 ---
 
-This glossary is evolving — feel free to suggest new terms or improvements!
+## 🧭 Project Roadmap Overview
+
+| Phase        | Period            | Goals (Highlights)                                              | Status     |
+|--------------|------------------|------------------------------------------------------------------|------------|
+| **Phase 1**  | Now → Q2 2025     | Launch GitHub, write docs, build initial site and MVP drafts    | ✅ Active   |
+| **Phase 2**  | Q3 2025 → Q1 2026 | Build working demos (Emaki, Network, AI), community blog, refine UI | 🔜 Planned  |
+| **Phase 3**  | 2026 and beyond   | Global scroll narratives, emergent frameworks, AI co-creation    | 🌌 Vision   |
+
+📖 Full roadmap: [docs/roadmap.md](./roadmap.md)
+
+---
+
+## 🤝 How to Use This Folder
+
+- **Contributors**: Learn how to propose or join a subproject.
+- **First-timers**: Understand the vision and structure of CANW.
+- **Collaborators**: Get aligned on terminology and shared direction.
+
+This folder is the collective brain of CANW. Contributions to documentation are just as valuable as code!
+
+---
+
+## 🧩 Coming Soon
+
+We are actively working on these documents:
+
+- `roadmap.md`: Laying out phases and priority areas across subprojects
+- `glossary.md`: Defining key terms like "emergence", "mycelium", and "scroll narrative"
+- `new_project_proposal.md`: A template to make it easy for anyone to propose a new project idea
+
+If you'd like to help shape them, open a [Discussion](https://github.com/your-repo/discussions) or contribute directly.
+
+Let’s grow this creative network together 🌱
 
