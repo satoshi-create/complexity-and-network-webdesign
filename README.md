@@ -29,6 +29,17 @@ In the AI era, our mission is to authentically express complexity through web de
 - Visit the official CANW web hub: [https://complexity-and-network-webdesign.vercel.app/](https://complexity-and-network-webdesign.vercel.app/)
 - [📘 CANW Web Site](./site/README.md) — Learn how to build and contribute to the official site
 
+
+## 🧭 Project Roadmap Overview
+
+| Phase        | Period            | Goals (Highlights)                                              | Status     |
+|--------------|------------------|------------------------------------------------------------------|------------|
+| **Phase 1**  | Now → Q2 2025     | Launch GitHub, write docs, build initial site and MVP drafts    | ✅ Active   |
+| **Phase 2**  | Q3 2025 → Q1 2026 | Build working demos (Emaki, Network, AI), community blog, refine UI | 🔜 Planned  |
+| **Phase 3**  | 2026 and beyond   | Global scroll narratives, emergent frameworks, AI co-creation    | 🌌 Vision   |
+
+📖 Full roadmap: [docs/roadmap.md](./docs/roadmap.md)
+
 ## 🌟 Contributors Welcome!
 CANW is just beginning, full of possibilities and room for new ideas.
 
