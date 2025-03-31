@@ -40,15 +40,29 @@ In the AI era, our mission is to authentically express complexity through web de
 
 📖 Full roadmap: [docs/roadmap.md](./docs/roadmap.md)
 
+
 ## 🌟 Contributors Welcome!
-CANW is just beginning, full of possibilities and room for new ideas.
+CANW is just beginning — full of possibilities, creative room, and emergent collaboration.
+Whether you're into data, design, storytelling, or system thinking, we welcome you to co-create with us.
 
-Feel free to join by:
-- Suggesting new ideas through Issues
-- Collaborating on prototypes
-- Enhancing documentation
+### 🆕 Propose a New Project
 
-Open an issue to share your thoughts and join the discussion!
+Have an idea you want to grow?
+- ✏️ Start with our [Project Proposal Template](./docs/new_project_propesal/new_project_propesal.md)
+- 🌿 Explore a live example: [Mycelium Network Mapper](./docs/new_project_propesal/sample/mycelium-network-mapper.md)
+- 💬 Not sure where to start? Open a [Discussion](https://github.com/satoshi-create/complexity-and-network-webdesign/discussions) or draft an idea in an Issue
+
+Your idea doesn't have to be polished — sketches, seeds, and half-formed thoughts are welcome.
+We grow ideas together here.
+
+### ✍️ Other Ways to Contribute
+
+- 📌 Suggest new directions via [Issues](https://github.com/satoshi-create/complexity-and-network-webdesign/issues)
+- 🧪 Collaborate on prototypes and experiments
+- 📚 Help refine the [docs](./docs/README.md), glossary, or roadmap
+- 🎨 Bring your perspective to designs, maps, or storytelling
+
+> 🌱 Ready to co-create a web that expresses the complex as complex? Let's begin!
 
 ## 📖 Documentation
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Contribution guidelines
