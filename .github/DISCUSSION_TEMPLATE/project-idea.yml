@@ -1,12 +1,12 @@
-name: "💡 New Project Idea"
-about: Propose a new project idea or direction
-title: "[Idea] "
-labels: ["proposal", "idea"]
+# .github/DISCUSSION_TEMPLATE/project-idea.yml
+categories:
+  - Ideas
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your idea! Please follow the prompts below.
+        💡 Thank you for proposing a new project idea!
+        Please fill out the following prompts.
   - type: input
     id: title
     attributes:
@@ -14,12 +14,12 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Summary
+      label: Summary of the idea
   - type: textarea
     id: goals
     attributes:
-      label: What do you hope to achieve?
+      label: What do you want to achieve?
   - type: textarea
-    id: why
+    id: relevance
     attributes:
-      label: How is it related to CANW?
+      label: How does it align with CANW?
