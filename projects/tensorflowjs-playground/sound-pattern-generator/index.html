@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎼 Sound Pattern Generator</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tone@14.8.39/build/Tone.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+      background: #f7f7f7;
+    }
+
+    button {
+      margin: 1em;
+      padding: 1em 2em;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🎵 Sound Pattern Generator</h1>
+  <p>Click to play a generated pattern and give feedback</p>
+  <div id="score-display">🎯 Score: --</div>
+  <button id="playButton">🔊 Play Pattern</button>
+  <button id="likeButton">👍 Like</button>
+  <button id="dislikeButton">👎 Dislike</button>
+
+  <script>
+    const synth = new Tone.Synth().toDestination();
+    const notes = ["C4", "D4", "E4", "G4", "A4"];
+
+    let pattern = [0, 2, 4, 3, 1]; // 初期の音パターン（音階インデックス）
+    let trainingData = []; // 学習用の入力パターン
+    let trainingLabels = [];  // ラベル（1 = Like, 0 = Dislike）
+
+    // TensorFlow.js model（MLP）
+    const model = tf.sequential();
+    model.add(tf.layers.dense({ inputShape: [5], units: 8, activation: 'relu' })); // 入力層 → 中間層（5入力 → 8ユニット）
+    model.add(tf.layers.dense({ units: 1, activation: 'sigmoid' })); // 出力層（1ユニット：確率として好みを予測）
+    model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy' }); // 損失関数と最適化手法を指定
+
+    // 🎵 パターンを再生
+    function playPattern() {
+      let time = 0;
+      pattern.forEach(index => {
+        Tone.Transport.scheduleOnce(t => {
+          synth.triggerAttackRelease(notes[index], "8n", t);
+        }, `+${time}`);
+        time += 0.5;
+      });
+      Tone.Transport.start();
+      predictPreference();
+    }
+
+    // 🔄 新しいランダムパターンを生成
+    function generateRandomPattern() {
+      pattern = Array.from({ length: 5 }, () => Math.floor(Math.random() * notes.length));
+    }
+
+    // 🧠 モデルを学習する関数（入力パターンとラベル）
+    async function trainModel() {
+      console.log("🧠 Training started...");
+      const xs = tf.tensor2d(trainingData); // 入力データをテンソルに変換
+      const ys = tf.tensor2d(trainingLabels, [trainingLabels.length, 1]);// ラベルをテンソルに変換
+
+      console.log("📊 Inputs:");
+      xs.print();  // コンソールでテンソル表示
+      console.log("📈 Labels:");
+      ys.print();
+
+      await model.fit(xs, ys, {
+        epochs: 10,
+        callbacks: {
+          onEpochEnd: (epoch, logs) => {
+            console.log(`📚 Epoch ${epoch + 1}: loss = ${logs.loss.toFixed(4)}`);
+          }
+        }
+      });  // 10エポック学習
+      xs.dispose(); // メモリ解放
+      ys.dispose();
+      console.log("✅ Training complete");
+    }
+
+    // 🔍 現在のパターンに対してユーザーが好きそうかを予測（デバッグ用）
+    async function predictPreference() {
+      console.log("🔍 Predicting preference for:", pattern);
+      const input = tf.tensor2d([pattern]);
+      const prediction = model.predict(input);
+
+      const score = await prediction.data(); // 結果は Promise
+      const roundedScore = score[0].toFixed(3);  // 小数点以下3桁に
+
+      // document.getElementById('score-display').innerText = `🎯 Score: ${roundedScore}`;
+
+      let emoji = score > 0.7 ? "😍" : score > 0.4 ? "😐" : "😕";
+      document.getElementById('score-display').innerText = `${emoji} Score: ${roundedScore}`;
+
+
+      console.log(`🎯 Predicted preference score: ${score[0].toFixed(3)}`);
+      input.dispose();
+    }
+
+    // 🎛️ ボタン操作イベント
+    document.getElementById("playButton").addEventListener("click", async () => {
+      await Tone.start();
+      Tone.Transport.stop();
+      Tone.Transport.cancel();
+      playPattern();
+    });
+
+    document.getElementById("likeButton").addEventListener("click", async () => {
+      trainingData.push([...pattern]);  // 現在のパターンを好みとして保存
+      trainingLabels.push(1);           // ラベル1 = Like
+      await trainModel();               // 学習
+      generateRandomPattern();          // 新しいパターン生成
+    });
+
+    document.getElementById("dislikeButton").addEventListener("click", async () => {
+      trainingData.push([...pattern]);   // 現在のパターンを嫌いとして保存
+      trainingLabels.push(0);            // ラベル0 = Like
+      await trainModel();                 // 学習
+      generateRandomPattern();             // 新しいパターン生成
+    });
+  </script>
+</body>
+
+</html>
