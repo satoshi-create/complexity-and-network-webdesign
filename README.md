@@ -12,9 +12,20 @@ In the AI era, our mission is to authentically express complexity through web de
 ## 🧭 Explore the CANW Ecosystem
 
 ### 📂 Subprojects
-- [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)
-- [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)
-- [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)
+
+- [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)  
+  Play with machine learning in the browser and explore interactive AI demos.
+
+- [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)  
+  A journey from structured datasets to emergent network visualizations.
+
+  - [🍄 Fungi Network Visualizer (MVP)](./projects/from-rdb-to-network/fungi-network/README.md)  
+    A minimal prototype showing how mycelial networks can be visualized from CSV data using Python + NetworkX.
+
+- [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)  
+  A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.
+
+
 
 ### 🔬 Experimental Areas
 - [🧪 Experiments](./experiments/README.md)
