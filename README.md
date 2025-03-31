@@ -25,6 +25,10 @@ In the AI era, our mission is to authentically express complexity through web de
 ### 🖼️ Media & Visuals
 - [📷 Media Library](./media/README.md)
 
+### 🌐 Website
+- [📘 CANW Web Site](./site/README.md) — Learn how to build and contribute to the official site
+
+
 ## 🌟 Contributors Welcome!
 CANW is just beginning, full of possibilities and room for new ideas.
 
