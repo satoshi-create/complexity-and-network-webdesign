@@ -11,6 +11,10 @@ In the AI era, our mission is to authentically express complexity through web de
 
 ## 🧭 Explore the CANW Ecosystem
 
+### 🌐 Website
+- Visit the official CANW web hub: [https://complexity-and-network-webdesign.vercel.app/](https://complexity-and-network-webdesign.vercel.app/)
+- [📘 CANW Web Site](./site/README.md) — Learn how to build and contribute to the official site
+
 ### 📂 Subprojects
 - [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)
 - [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)
@@ -24,10 +28,6 @@ In the AI era, our mission is to authentically express complexity through web de
 
 ### 🖼️ Media & Visuals
 - [📷 Media Library](./media/README.md)
-
-### 🌐 Website
-- [📘 CANW Web Site](./site/README.md) — Learn how to build and contribute to the official site
-
 
 ## 🌟 Contributors Welcome!
 CANW is just beginning, full of possibilities and room for new ideas.
