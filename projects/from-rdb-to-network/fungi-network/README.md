@@ -1,5 +1,9 @@
 # 🍄 Fungi Network Visualizer
 
+![Fungi Network Sample](./image/fungi-network.png)
+
+> A sample visualization of fungal mycelium-like network using NetworkX.
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 (https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/main/projects/from-rdb-to-network/fungi-network/notebooks/fungi-network.ipynb)
 
