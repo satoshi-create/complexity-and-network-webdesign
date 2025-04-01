@@ -6,7 +6,7 @@ An experimental frontend project inspired by traditional Japanese emakimono (pic
 
 This project originated from an ongoing web-based experiment:
 
-👉 [Explore the Horizontal Scroll Emaki（横スクロールで楽しむ絵巻物を見る）](https://your-website-url.com)
+👉 [Explore the Horizontal Scroll Emaki（横スクロールで楽しむ絵巻物を見る）](https://emakimono.com/en)
 
 📂 GitHub：  
 👉 [satoshi-create/emakimono-next](https://github.com/satoshi-create/emakimono-next)
