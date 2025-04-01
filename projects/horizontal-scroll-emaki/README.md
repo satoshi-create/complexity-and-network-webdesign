@@ -2,14 +2,11 @@
 
 An experimental frontend project inspired by traditional Japanese emakimono (picture scrolls), reimagined as a horizontal scrolling web experience.
 
-This project builds on the concept and implementation of  
-["横スクロールで楽しむ絵巻物"](https://your-website-url.com),  
-a web-based experience that reimagines the traditional picture scroll (emaki) for the modern screen.
+This project builds on the concept and implementation of  ["横スクロールで楽しむ絵巻物（emakimono!!）"](https://emakimono.com/en), a web-based experience that reimagines the traditional picture scroll (emaki) for the modern screen.
 
-[![Emaki Screenshot](./public/emaki-sample.png)](https://your-website-url.com)
+[![Emaki Screenshot](./images/hero-image.png)](https://emakimono.com/en)
 
-Now, as part of the [CANW](https://github.com/satoshi-create/complexity-and-network-webdesign) ecosystem,  
-this project aims to **scale and expand the concept through the lens of complexity and network thinking** — turning cultural artifacts into emergent, interactive, and lifelike web interfaces.
+Now, as part of the [CANW](https://github.com/satoshi-create/complexity-and-network-webdesign) ecosystem,this project aims to **scale and expand the concept through the lens of complexity and network thinking** — turning cultural artifacts into emergent, interactive, and lifelike web interfaces.
 
 ---
 
