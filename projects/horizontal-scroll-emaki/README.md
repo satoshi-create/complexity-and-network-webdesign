@@ -1,5 +1,7 @@
 # 📜 Horizontal Scroll Emaki
 
+**Tags:** `emaki` `scroll-ui` `cultural-ui` `CANW`
+
 An experimental frontend project inspired by traditional Japanese emakimono (picture scrolls), reimagined as a horizontal scrolling web experience.
 
 ## 🎨 Origin: 横スクロールで楽しむ絵巻物
