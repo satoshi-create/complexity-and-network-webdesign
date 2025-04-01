@@ -8,7 +8,7 @@ This project originated from an ongoing web-based experiment:
 
 👉 [Explore the Horizontal Scroll Emaki（横スクロールで楽しむ絵巻物を見る）](https://emakimono.com/en)
 
-📂 GitHub：  
+📂 GitHub：
 👉 [satoshi-create/emakimono-next](https://github.com/satoshi-create/emakimono-next)
 
 It explores how traditional narrative scrolls can be brought to life in a browser through horizontal scrolling, responsive design, and layered storytelling.
@@ -27,7 +27,7 @@ We see picture scrolls not only as linear narratives, but as:
 - Systems of attention and gaze across time and space
 - Cultural constructs rich in ambiguity and emergence
 
-The goal is to turn the **horizontal scroll** into a canvas for complex storytelling,  
+The goal is to turn the **horizontal scroll** into a canvas for complex storytelling,
 where visual, interactive, and generative elements come together.
 
 ---
