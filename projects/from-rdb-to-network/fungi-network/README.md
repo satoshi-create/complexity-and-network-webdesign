@@ -1,5 +1,6 @@
 # 🍄 Fungi Network Visualizer
 
+
 This project explores the structure and growth of fungal mycelium networks using simple ecological graph models.
 This is a minimal working example of visualizing fungal mycelium networks using CSV/JSON data and Python (NetworkX).  
 It’s designed to be simple, visual, and open-ended — a seed for more complex projects within the "from-RDB-to-Network" journey.
@@ -55,4 +56,6 @@ It’s designed to be simple, visual, and open-ended — a seed for more complex
 - Use real-world ecological or mycological data
 
 Pull requests and ideas welcome! 🌱
+
+**Tags:** `#network-thinking` `#mycelium` `#complexity` `#graph-theory` `#bio-inspired` `#mvp`
 
