@@ -1,5 +1,7 @@
 # 🌐 From RDB to Network
 
+**Tags:** `CANW` `oss` `data-visualization` `network-analysis` `rdb` `networkx` `python`
+
 This project converts relational data into network structures to reveal hidden relationships.
 Themes include biological, cultural, and creative networks.
 
