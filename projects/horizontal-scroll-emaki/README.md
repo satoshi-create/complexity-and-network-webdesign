@@ -8,6 +8,9 @@ This project originated from an ongoing web-based experiment:
 
 👉 [Explore the Horizontal Scroll Emaki（横スクロールで楽しむ絵巻物を見る）](https://your-website-url.com)
 
+📂 GitHub：  
+👉 [satoshi-create/emakimono-next](https://github.com/satoshi-create/emakimono-next)
+
 It explores how traditional narrative scrolls can be brought to life in a browser through horizontal scrolling, responsive design, and layered storytelling.
 
 [![Emaki Screenshot](./images/hero-image.png)](https://emakimono.com/en)
