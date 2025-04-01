@@ -1,6 +1,6 @@
 # 📜 Horizontal Scroll Emaki
 
-**Tags:** `emaki` `scroll-ui` `cultural-ui` `CANW`
+**Tags:** `CANW` `oss` `webdesign` `emaki` `scroll-ui` `cultural-ui` `interactive-storytelling`
 
 An experimental frontend project inspired by traditional Japanese emakimono (picture scrolls), reimagined as a horizontal scrolling web experience.
 
