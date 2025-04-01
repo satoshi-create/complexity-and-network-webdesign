@@ -19,19 +19,28 @@ Now, as part of the [CANW](https://github.com/satoshi-create/complexity-and-netw
 
 ---
 
-## 🌱 CANW Perspective
+## 🎯 Goals
 
-We see picture scrolls not only as linear narratives, but as:
-
-- Networks of scenes, motifs, and poetic references
-- Systems of attention and gaze across time and space
-- Cultural constructs rich in ambiguity and emergence
-
-The goal is to turn the **horizontal scroll** into a canvas for complex storytelling,  
-where visual, interactive, and generative elements come together.
+- Reconstruct the horizontal emaki experience on the web
+- Provide responsive, smooth horizontal navigation
+- Use metadata structures (JSON) for narrative extensibility
+- Explore ways of layering scenes, annotations, and meaning
 
 ---
 
+## 🧪 Minimum Viable Product (MVP)
+
+This MVP focuses on recreating the core viewing experience of an emaki in a modern browser.
+
+### ✅ Features
+
+- Scrollable horizontal image viewer (Next.js)
+- Pre-sliced emaki images (`public/`)
+- Simple scroll navigation with hints
+- Responsive layout (mobile and desktop)
+- JSON-based metadata (optional, expandable)
+
+---
 ## 📂 Structure
 
 - `frontend/`: Next.js-based horizontal scroll viewer
@@ -39,5 +48,21 @@ where visual, interactive, and generative elements come together.
 - `design-assets/`: Figma / Affinity designs, mockups
 - `public/`: static image assets
 - `docs/`: project goals, references, and concepts
+---
+
+## 💬 Get Involved
+
+This project is part of the [CANW ecosystem](https://github.com/satoshi-create/complexity-and-network-webdesign).
+
+- 💡 Propose new features or emaki variations via [Issues](../../issues)
+- 🧵 Join [Discussions](https://github.com/satoshi-create/complexity-and-network-webdesign/discussions)
+- 🛠 Help shape scroll UI, metadata format, or annotation tools
+
+[![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
+
+---
+
+## 📘 License
+
 
 **Tags:** `#CANW` `#oss` `#webdesign` `#emaki` `#scroll-ui` `#cultural-ui` `#interactive-storytelling`
