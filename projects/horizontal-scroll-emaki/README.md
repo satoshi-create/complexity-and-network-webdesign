@@ -2,7 +2,13 @@
 
 An experimental frontend project inspired by traditional Japanese emakimono (picture scrolls), reimagined as a horizontal scrolling web experience.
 
-This project builds on the concept and implementation of  ["横スクロールで楽しむ絵巻物（emakimono!!）"](https://emakimono.com/en), a web-based experience that reimagines the traditional picture scroll (emaki) for the modern screen.
+## 🎨 Origin: 横スクロールで楽しむ絵巻物
+
+This project originated from an ongoing web-based experiment:
+
+👉 [Explore the Horizontal Scroll Emaki（横スクロールで楽しむ絵巻物を見る）](https://your-website-url.com)
+
+It explores how traditional narrative scrolls can be brought to life in a browser through horizontal scrolling, responsive design, and layered storytelling.
 
 [![Emaki Screenshot](./images/hero-image.png)](https://emakimono.com/en)
 
