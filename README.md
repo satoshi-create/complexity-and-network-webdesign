@@ -1,5 +1,8 @@
 # CANW (Complexity And Network Webdesign)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
+
 CANW is an open-source project exploring "Complexity and Network Webdesign."
 
 In the AI era, our mission is to authentically express complexity through web design, embracing biological, cultural, and emergent aspects.
