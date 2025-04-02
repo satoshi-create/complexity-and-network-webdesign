@@ -37,7 +37,8 @@ In the AI era, our mission is to authentically express complexity through web de
 - [🧪 Experiments](./experiments/README.md)
 
 ### 🤖 AI Collaboration
-- [🤝 AI + Automation](./ai-collaboration/README.md)
+ - [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)  
+   exploring the Jomon world through AI-assisted storytelling, networks, and landscape.
 
 ### 🖼️ Media & Visuals
 - [📷 Media Library](./media/README.md)
