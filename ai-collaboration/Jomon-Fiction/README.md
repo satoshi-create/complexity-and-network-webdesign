@@ -1,39 +1,98 @@
-# Jomon Fiction – AI と協働して描く縄文の物語
-
-_A creative subproject of CANW, exploring the Jomon world through AI-assisted storytelling, networks, and landscape._
+# Jomon Fiction – AIと協働して描く縄文の物語  
+**Jomon Fiction – Reimagining the Jomon World Through AI Collaboration**
 
 ---
 
 ## 🤝 概要 | Overview
 
-「Jomon Fiction」は、**AI と人間が協働して縄文時代の想像世界を立ち上げるプロジェクト**です。
+「Jomon Fiction」は、**AI と人間が協働して縄文時代の景観ランドスケープを立ち上げるプロジェクト**です。
 本プロジェクトは、「複雑系とネットワークのウェブデザイン（CANW）」の中の [`ai-collaboration`](../) サブプロジェクトとして位置づけられています。
 
-本作では、**忠生遺跡、阿久遺跡、下野谷遺跡**などの拠点的集落を中心に、物語・図像・ネットワーク図を組み合わせながら、**5000 年前の風景と人々の息遣い**を再構築していきます。
+**Jomon Fiction** is a collaborative storytelling project where humans and AI co-create imaginative narratives set in the Jomon period of prehistoric Japan.  
+It is part of the [`ai-collaboration`](../) subproject within the **CANW (Complexity and Network-based Web Design)** initiative.
+
 
 ---
 
-## 🤖 AI との協働プロセス | AI-Assisted Workflow
+## 🧭 目的と背景 | Purpose and Vision
 
-| 工程                | 人間の役割             | AI の役割                |
-| ------------------- | ---------------------- | ------------------------ |
-| 🧠 コンセプト設計   | 研究・土地選定・構造化 | 類例分析、ブレスト支援   |
-| ✍️ 小説執筆         | 物語設計・視点選定・声 | 文体提案、翻訳、リライト |
-| 🖼️ 図像生成         | イメージ選定           | 画像生成（DALL·E など）  |
-| 🔗 ネットワーク構築 | データ構成             | Python での可視化補助    |
-| 📘 出版準備         | note 発信・Git 管理    | Markdown 整形・構造提案  |
+本プロジェクトでは、**忠生遺跡・阿久遺跡・下野谷遺跡**などの**拠点的集落**をテーマに、  
+ネットワーク・環境・信仰・暮らしといった複数の視点から小説を構築します。
 
-> 人間と AI が「共創するエディトリアルチーム」のように進行しています。
+The project focuses on key Jomon settlements such as **Tadao, Aku, and Shimonoya**.  
+Each narrative explores these sites through the lenses of **networks, environment, belief systems, and daily life**.
 
 ---
 
-## 📚 なぜ AI と描く縄文なのか？| Why AI for Jomon Fiction?
+## 🤖 AIとの協働 | Working with AI
 
-縄文時代の記録は断片的であり、現代の知識と感性を総動員して初めて輪郭を得ます。
-AI は考古学や環境史を支援するだけでなく、「想像と構造」を往復する**創造の道具**として機能します。
+本プロジェクトでは、以下のようにAIがクリエイティブプロセスに参加します：
 
-> AI is not just a tool but a **collaborator that helps bridge imagination and structure**, especially in speculative storytelling.
+| 工程 | 人間の役割 | AIの役割 |
+|------|------------|----------|
+| 構想・調査 | 土地選定・視点設計・文脈把握 | 類例生成・構造提案・メタ的思考補助 |
+| 物語制作 | プロット構築・物語の声を決める | スタイル提案・構文補正・翻訳支援 |
+| 可視化 | ネットワーク構築・図解の構想 | Pythonによる可視化コード・出力整形 |
+| 図像制作 | 構図と質感の設計 | DALL·E等による画像生成 |
+
+In this project, AI acts as a **creative partner** in the following stages:
+
+| Phase | Human Role | AI Role |
+|-------|------------|---------|
+| Conceptualization | Selecting sites, perspectives, and contexts | Generating patterns, offering structural suggestions |
+| Writing | Designing plots, narrative tone and characters | Style assistance, syntax feedback, bilingual translation |
+| Visualization | Designing networks and diagrams | Python code for graph generation, image formatting |
+| Image Creation | Planning visual themes and texture | Generating illustrations via DALL·E or similar tools |
 
 ---
 
-## 📁 ディレクトリ構成 | Project Structure
+## 📁 ディレクトリ構成 | Directory structure
+
+```plaintext
+jomon-fiction/
+├── README.md
+├── index.md
+├── sites/
+│   ├── tadao/
+│   │   ├── story_ja.md         ← 忠生遺跡物語（日本語）
+│   │   ├── story_en.md         ← Tadao story (English)
+│   │   ├── network.ipynb       ← ネットワーク図生成（Jupyter）
+│   │   └── images/
+│   │       └── landscape.png
+│   ├── aku/
+│   │   └── ...
+│   └── shimonoya/
+│       └── ...
+├── common-assets/
+│   └── css, fonts, templates
+├── characters/
+
+```
+
+
+
+※ 日本語と英語は**同一ディレクトリ内に併記**し、翻訳ではなく**文化的再構成**として扱います。
+
+---
+
+## 🌐 発信と公開 | Publishing & Outreach
+
+- note連載（予定）:
+- CANWウェブサイトとの連携を予定  
+- 生成物（物語、図像、ネットワーク図など）はOSSとして公開予定
+
+This project will be shared via:
+- Serialized posts on note.com 
+- Integration with the CANW website  
+- Open-source publication of all stories, images, and networks
+
+---
+
+## 🚧 現在進行中 | Work in Progress
+
+- [x] README bilingual draft  
+- [ ] 忠生遺跡編 プロット執筆中  
+- [ ] obsidian/shell trade ネットワーク構造のモデリング  
+- [ ] note連載（2025年4月公開予定）
+
+---
