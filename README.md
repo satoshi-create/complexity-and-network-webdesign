@@ -48,6 +48,36 @@ In the AI era, our mission is to authentically express complexity through web de
 - [📘 CANW Web Site](./site/README.md) — Learn how to build and contribute to the official site
 
 
+## 🧠 CANW at a Glance (Mindmap)
+
+Here’s a quick overview of the project ecosystem:
+
+> This mindmap captures the emergent, multi-layered, and interdisciplinary nature of CANW.
+
+```mermaid
+mindmap
+  root((CANW))
+    Projects
+      TensorFlow.js Playground
+        sound-pattern-generator
+      From RDB to Network
+        fungi-network
+      Horizontal Scroll Emaki
+    AI Collaboration
+      Jomon-Fiction
+    experiments
+    Concepts
+      Complexity
+      Emergence
+      Network
+    Docs
+      concepts
+      roadmap
+      proposal template
+      glossary
+```
+
+
 ## 🧭 Project Roadmap Overview
 
 | Phase        | Period            | Goals (Highlights)                                              | Status     |
