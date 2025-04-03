@@ -36,7 +36,7 @@ where visual, interactive, and generative elements come together.
 
 - Reconstruct the horizontal emaki experience on the web
 - Provide responsive, smooth horizontal navigation
-- Use metadata structures (JSON) for narrative extensibility
+- Use metadata structures (JSON or RDB) for narrative extensibility
 - Explore ways of layering scenes, annotations, and meaning
 
 ---
@@ -49,9 +49,6 @@ This MVP focuses on recreating the core viewing experience of an emaki in a mode
 
 - Scrollable horizontal image viewer (Next.js)
 - Pre-sliced emaki images (`public/`)
-- Simple scroll navigation with hints
-- Responsive layout (mobile and desktop)
-- JSON-based metadata (optional, expandable)
 
 ---
 
