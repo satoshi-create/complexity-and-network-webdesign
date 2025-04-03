@@ -111,7 +111,17 @@ We grow ideas together here.
 
 > 🌱 Ready to co-create a web that expresses the complex as complex? Let's begin!
 
+
+Thanks to all the contributors who help make CANW grow! 🌱
+
+[![](https://contrib.rocks/image?repo=satoshi-create/complexity-and-network-webdesign)](https://github.com/satoshi-create/complexity-and-network-webdesign/graphs/contributors)
+
+> 🚀 This list is still small — but growing.  
+> Your ideas, your code, your curiosity are all welcome here.
+
+
 ---
+
 
 ## 📘 Learn More in the Wiki
 
@@ -120,8 +130,6 @@ Want to explore the philosophy, structure, and ecosystem behind CANW?
 📖 [What is CANW?](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki/What-is-CANW%3F)  
 
 The Wiki is our evolving knowledge base — from conceptual roots to contribution guides.
-
----
 
 
 ## 📖 Documentation
