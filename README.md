@@ -77,7 +77,6 @@ mindmap
       glossary
 ```
 
-
 ## 🧭 Project Roadmap Overview
 
 | Phase        | Period            | Goals (Highlights)                                              | Status     |
@@ -87,7 +86,6 @@ mindmap
 | **Phase 3**  | 2026 and beyond   | Global scroll narratives, emergent frameworks, AI co-creation    | 🌌 Vision   |
 
 📖 Full roadmap: [docs/roadmap.md](./docs/roadmap.md)
-
 
 ## 🌟 Contributors Welcome!
 CANW is just beginning — full of possibilities, creative room, and emergent collaboration.
@@ -111,6 +109,19 @@ We grow ideas together here.
 - 🎨 Bring your perspective to designs, maps, or storytelling
 
 > 🌱 Ready to co-create a web that expresses the complex as complex? Let's begin!
+
+---
+
+## 📘 Learn More in the Wiki
+
+Want to explore the philosophy, structure, and ecosystem behind CANW?
+
+📖 [What is CANW?](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki/What-is-CANW%3F)  
+
+The Wiki is our evolving knowledge base — from conceptual roots to contribution guides.
+
+---
+
 
 ## 📖 Documentation
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Contribution guidelines
