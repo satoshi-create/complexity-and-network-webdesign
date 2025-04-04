@@ -3,6 +3,8 @@
 An interactive experiment to generate simple musical patterns and learn user preferences using TensorFlow.js.  
 This project is part of the [CANW](https://github.com/satoshi-create/complexity-and-network-webdesign) ecosystem — exploring emergent web design through complexity and networks.
 
+👉 [Sound Pattern Generator](https://complexity-and-network-webdesign-1x42.vercel.app/)
+
 ---
 
 ## 🎯 Goals
