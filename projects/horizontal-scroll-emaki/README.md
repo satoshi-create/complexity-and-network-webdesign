@@ -2,6 +2,8 @@
 
 An experimental frontend project inspired by traditional Japanese emakimono (picture scrolls), reimagined as a horizontal scrolling web experience.
 
+👉 [horizontal-scroll-emaki](https://complexity-and-network-webdesign-9q4q.vercel.app/)
+
 ## 🎨 Origin: 横スクロールで楽しむ絵巻物
 
 This project originated from an ongoing web-based experiment:
