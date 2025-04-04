@@ -19,7 +19,7 @@ We welcome contributions in many forms:
 - Clone your fork locally:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/complexity-and-network-webdesign.git
+git clone https://github.com/satoshi-creat/complexity-and-network-webdesign.git
 ```
 
 ### 2. Create a Branch
@@ -30,12 +30,18 @@ Create a descriptive branch name:
 git checkout -b feature/your-awesome-feature
 ```
 
-### 3. Make Changes
+### 3. Install dependencies and Start development
+```bash
+npm install
+npm run dev
+```
+
+### 4. Make Changes
 
 - Implement your changes.
 - Ensure clear and concise commit messages.
 
-### 4. Submit a Pull Request
+### 5. Submit a Pull Request
 
 - Push your changes to your fork.
 - Open a Pull Request describing your changes clearly.
