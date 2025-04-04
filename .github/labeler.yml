@@ -4,7 +4,7 @@
 network-graph:
   - projects/from-rdb-to-network/fungi-network/**
 tensorflow:
-  - projects/tensorflowjs-playground/sound-pattern-generator/**
+  - projects/tensorflowjs-playground/**
 frontend:
   - projects/horizontal-scroll-emaki/**
 docs:
