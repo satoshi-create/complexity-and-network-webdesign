@@ -20,13 +20,33 @@
       padding: 1em 2em;
       font-size: 1rem;
     }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .prediction-area {
+      margin: 1.5em;
+      padding: 1em;
+      border-radius: 8px;
+    }
+
+    .category {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0.5em;
+    }
   </style>
 </head>
 
 <body>
   <h1>🎵 Sound Pattern Generator</h1>
   <p>Click to play a generated pattern and give feedback</p>
-  <div id="score-display">🎯 Score: --</div>
+  <div class="prediction-area">
+    <div id="category-display" class="category">🔮 Category: --</div>
+    <div id="score-display">🎯 Score: --</div>
+  </div>
   <button id="playButton">🔊 Play Pattern</button>
   <button id="likeButton">👍 Like</button>
   <button id="dislikeButton">👎 Dislike</button>
@@ -35,15 +55,39 @@
     const synth = new Tone.Synth().toDestination();
     const notes = ["C4", "D4", "E4", "G4", "A4"];
 
+    // Sound categories with emojis
+    const soundCategories = [
+      { name: "Beat", emoji: "🥁" },
+      { name: "Melody", emoji: "🎵" },
+      { name: "Chime", emoji: "🔔" }
+    ];
+
+    // Button elements
+    const playButton = document.getElementById("playButton");
+    const likeButton = document.getElementById("likeButton");
+    const dislikeButton = document.getElementById("dislikeButton");
+
     let pattern = [0, 2, 4, 3, 1]; // 初期の音パターン（音階インデックス）
     let trainingData = []; // 学習用の入力パターン
     let trainingLabels = [];  // ラベル（1 = Like, 0 = Dislike）
+    let categoriesData = []; // Sound category data for each pattern
+    let patternPlayed = false; // Flag to track if a pattern was played
 
     // TensorFlow.js model（MLP）
     const model = tf.sequential();
-    model.add(tf.layers.dense({ inputShape: [5], units: 8, activation: 'relu' })); // 入力層 → 中間層（5入力 → 8ユニット）
+    model.add(tf.layers.dense({ inputShape: [5], units: 12, activation: 'relu' })); // 入力層 → 中間層（5入力 → 12ユニット）
+    model.add(tf.layers.dense({ units: 8, activation: 'relu' })); // Additional layer for better pattern recognition
     model.add(tf.layers.dense({ units: 1, activation: 'sigmoid' })); // 出力層（1ユニット：確率として好みを予測）
     model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy' }); // 損失関数と最適化手法を指定
+
+    // Category classifier model - separate from preference model
+    const categoryModel = tf.sequential();
+    categoryModel.add(tf.layers.dense({ inputShape: [5], units: 10, activation: 'relu' }));
+    categoryModel.add(tf.layers.dense({ units: soundCategories.length, activation: 'softmax' })); // Output one probability per category
+    categoryModel.compile({ optimizer: 'adam', loss: 'categoricalCrossentropy' });
+
+    // Initialize button states
+    setFeedbackButtonsState();
 
     // 🎵 パターンを再生
     function playPattern() {
@@ -55,17 +99,34 @@
         time += 0.5;
       });
       Tone.Transport.start();
+      patternPlayed = true;
+      setFeedbackButtonsState();
       predictPreference();
+    }
+
+    // Enable or disable the feedback buttons based on whether a pattern has been played
+    function setFeedbackButtonsState() {
+      likeButton.disabled = !patternPlayed;
+      dislikeButton.disabled = !patternPlayed;
     }
 
     // 🔄 新しいランダムパターンを生成
     function generateRandomPattern() {
       pattern = Array.from({ length: 5 }, () => Math.floor(Math.random() * notes.length));
+      patternPlayed = false;
+      setFeedbackButtonsState();
     }
 
     // 🧠 モデルを学習する関数（入力パターンとラベル）
     async function trainModel() {
       console.log("🧠 Training started...");
+      
+      // Only train if we have sufficient data
+      if (trainingData.length < 2) {
+        console.log("Need more data to train");
+        return;
+      }
+      
       const xs = tf.tensor2d(trainingData); // 入力データをテンソルに変換
       const ys = tf.tensor2d(trainingLabels, [trainingLabels.length, 1]);// ラベルをテンソルに変換
 
@@ -82,6 +143,21 @@
           }
         }
       });  // 10エポック学習
+      
+      // Also train the category model if we have category data
+      if (categoriesData.length > 0) {
+        const categoryLabels = categoriesData.map(cat => {
+          // One-hot encode the category
+          const oneHot = Array(soundCategories.length).fill(0);
+          oneHot[cat] = 1;
+          return oneHot;
+        });
+        
+        const catYs = tf.tensor2d(categoryLabels);
+        await categoryModel.fit(xs, catYs, { epochs: 8 });
+        catYs.dispose();
+      }
+      
       xs.dispose(); // メモリ解放
       ys.dispose();
       console.log("✅ Training complete");
@@ -96,34 +172,67 @@
       const score = await prediction.data(); // 結果は Promise
       const roundedScore = score[0].toFixed(3);  // 小数点以下3桁に
 
-      // document.getElementById('score-display').innerText = `🎯 Score: ${roundedScore}`;
-
       let emoji = score > 0.7 ? "😍" : score > 0.4 ? "😐" : "😕";
-      document.getElementById('score-display').innerText = `${emoji} Score: ${roundedScore}`;
+      document.getElementById('score-display').innerText = `${emoji} Score: ${(roundedScore * 100).toFixed(1)}%`;
 
+      // Predict the sound category
+      if (categoriesData.length > 0) {
+        const categoryPrediction = categoryModel.predict(input);
+        const categoryScores = await categoryPrediction.data();
+        
+        // Find the most likely category
+        let maxIndex = 0;
+        for (let i = 1; i < categoryScores.length; i++) {
+          if (categoryScores[i] > categoryScores[maxIndex]) {
+            maxIndex = i;
+          }
+        }
+        
+        const predictedCategory = soundCategories[maxIndex];
+        document.getElementById('category-display').innerText = 
+          `🔮 Category: ${predictedCategory.emoji} ${predictedCategory.name}`;
+        
+        categoryPrediction.dispose();
+      } else {
+        // If no training data yet, just pick a random category for demonstration
+        const randomCat = Math.floor(Math.random() * soundCategories.length);
+        const category = soundCategories[randomCat];
+        document.getElementById('category-display').innerText = 
+          `🔮 Category: ${category.emoji} ${category.name} (demo)`;
+      }
 
       console.log(`🎯 Predicted preference score: ${score[0].toFixed(3)}`);
       input.dispose();
     }
 
     // 🎛️ ボタン操作イベント
-    document.getElementById("playButton").addEventListener("click", async () => {
+    playButton.addEventListener("click", async () => {
       await Tone.start();
       Tone.Transport.stop();
       Tone.Transport.cancel();
       playPattern();
     });
 
-    document.getElementById("likeButton").addEventListener("click", async () => {
+    likeButton.addEventListener("click", async () => {
       trainingData.push([...pattern]);  // 現在のパターンを好みとして保存
       trainingLabels.push(1);           // ラベル1 = Like
+      
+      // Assign a random category for now - in a real app, you'd let users select the category
+      const randomCategory = Math.floor(Math.random() * soundCategories.length);
+      categoriesData.push(randomCategory);
+      
       await trainModel();               // 学習
       generateRandomPattern();          // 新しいパターン生成
     });
 
-    document.getElementById("dislikeButton").addEventListener("click", async () => {
+    dislikeButton.addEventListener("click", async () => {
       trainingData.push([...pattern]);   // 現在のパターンを嫌いとして保存
-      trainingLabels.push(0);            // ラベル0 = Like
+      trainingLabels.push(0);            // ラベル0 = Dislike
+      
+      // Assign a random category for now - in a real app, you'd let users select the category
+      const randomCategory = Math.floor(Math.random() * soundCategories.length);
+      categoriesData.push(randomCategory);
+      
       await trainModel();                 // 学習
       generateRandomPattern();             // 新しいパターン生成
     });
