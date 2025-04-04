@@ -1,0 +1,11 @@
+# .github/labeler.yml
+
+# 💡 ファイルパス → 自動でラベル付与
+network-graph:
+  - projects/from-rdb-to-network/fungi-network/**
+tensorflow:
+  - projects/tensorflowjs-playground/sound-pattern-generator/**
+frontend:
+  - projects/horizontal-scroll-emaki/**
+docs:
+  - docs/**
