@@ -55,6 +55,12 @@ It’s designed to be simple, visual, and open-ended — a seed for more complex
 - Convert CSV/JSON to RDB and explore query-driven graphs
 - Use real-world ecological or mycological data
 
+## Data Source Citations
+
+- Mesoscale analyses of fungal networks as an approach for quantifying phenotypic traits.
+Sang Hoon Lee, Mark D. Fricker, Mason A. Porter.
+Journal of Complex Networks, 2016. [bibtex] 
+
 Pull requests and ideas welcome! 🌱
 
 **Tags:** `#network-thinking` `#mycelium` `#complexity` `#graph-theory` `#bio-inspired` `#mvp`
