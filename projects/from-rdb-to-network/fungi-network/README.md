@@ -13,6 +13,10 @@ It’s designed to be simple, visual, and open-ended — a seed for more complex
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 (https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/main/projects/from-rdb-to-network/fungi-network/notebooks/fungi-network.ipynb)
 
+![Fungi Network Real](./image/fungi-network-real.png)
+
+> A sample visualisation of a real fungal mycelium-like network using NetworkX
+
 ---
 
 ## 📊 Goals
