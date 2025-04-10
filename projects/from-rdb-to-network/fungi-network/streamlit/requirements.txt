@@ -1,0 +1,6 @@
+streamlit
+numpy
+pandas
+pyvista
+networkx
+stpyvista
