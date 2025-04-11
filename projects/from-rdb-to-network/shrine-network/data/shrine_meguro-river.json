@@ -1,0 +1,146 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "荏原神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.74324, 35.617186, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "品川神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.739742, 35.618617, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "居木神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.725022, 35.620064, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "目黒不動尊",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/083.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.708017, 35.628855, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "大鳥神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.7082, 35.631994, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "中目黒八幡神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.70011, 35.639581, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "青葉台北野神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.696612, 35.647863, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "駒繋神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.68009, 35.638037, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "上目黒氷川神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.688158, 35.652815, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "三宿神社",
+      "description": "北沢川・烏山川合流点",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.673717, 35.651421, 0]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "太子堂八幡神社",
+      "_markerType": "Icon",
+      "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+      "_iconSize": [20, 20]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [139.66537, 35.64755, 0]
+    }
+  }
+]
