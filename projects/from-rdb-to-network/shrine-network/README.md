@@ -50,33 +50,6 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 
 ## 🏠 Shrine Examples / 神社の例
 
-### Kamimeguro Hikawa Shrine / 上目黒氷川神社
-
-![kamimeguro](./images/kamimeguro-hikawa.jpg)
-
-- Deity: Susanoo / 神: 素斗明神
-- On the edge of a plateau / 台地の端に位置
-
-### Komatsunagi Shrine / 駒続神社
-
-![komatsunagi](./images/komatsunagi-shrine.jpg)
-
-- Deity: Takemikazuchi / 神: 武鬻鍬神
-- Located in a valley area / 谷地形に守られた場所
-
-### Meguro Fudouson / 目黒不動寺
-
-![meguro](./images/meguro-fudoson.jpg)
-
-- Buddhist temple with waterfall & escarpment / 滝や崖線による靈場性
-
-### Mishuku Shrine / 三富神社
-
-![mishuku](./images/mishuku-shrine.jpg)
-
-- Deity: Ooyamatsumi / 神: 大山縁神
-- Between cliffs and valleys / 崖線と谷の間に復本
-
 <div align="center">
 <table>
   <tr>
@@ -116,8 +89,12 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 
 ![mapping](./public/images/shrine-locations-mapping.JPG)
 
-Using GSI maps to overlay shrine locations helps reveal geographic patterns.
-国土地理院の地図に神社を重ねることで、地形的な配置パターンを取り出せます。
+👉 [View on GSI Maps (Meguro Fudō Area) / 国土地理院の地図で見る（目黒不動周辺）](https://maps.gsi.go.jp/#14/35.635012/139.685755/&base=std&ls=std%7Canaglyphmap_color%2C0.47%7Cexperimental_landformclassification1%2C0.56&blend=0&disp=111&lcd=experimental_landformclassification1&vs=c1g1j0h0k0l0u0t0z0r0s0m0f0)
+
+📎 [Download shrine-locations.geojson / shrine-locations.geojson をダウンロード](./data/shrine_meguro-river.geojson)
+
+> 🇬🇧 You can upload the above GeoJSON file onto the GSI map to visualize shrine locations as a custom layer.
+> 🇯🇵 上記の GeoJSON ファイルを国土地理院地図にアップロードすることで、神社の位置をカスタムレイヤーとして可視化できます。
 
 ---
 
