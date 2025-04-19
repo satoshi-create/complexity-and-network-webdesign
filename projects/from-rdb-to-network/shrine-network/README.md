@@ -18,6 +18,11 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 - Ready for geospatial overlays (GSI Maps, GeoJSON)
   地理院地図や GeoJSON との連携も可能
 
+![Shrine Network](./public/images/shrine_network_demo_with_deity.png)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/create/shrine-network/projects/from-rdb-to-network/shrine-network/notebooks/shrine_network_with_relational_data.ipynb)
+
 ---
 
 ## 📊 Goals / 目標
@@ -72,11 +77,44 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 - Deity: Ooyamatsumi / 神: 大山縁神
 - Between cliffs and valleys / 崖線と谷の間に復本
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/images/kamimeguro-hikawa-shrine/kamimeguro-hikawa-shrine_8.jpg" width="400"><br/>
+      <strong>Kamimeguro Hikawa Shrine</strong><br/>
+      上目黒氷川神社<br/>
+      Susanoo-no-Mikoto（素戔嗚尊）
+    </td>
+    <td align="center">
+      <img src="./public/images/komatsunagi-shrine/komatsunagi-shrine_7.jpg" width="400"><br/>
+      <strong>Komatsunagi Shrine</strong><br/>
+      駒繋神社<br/>
+      Takemikazuchi-no-Kami（武甕槌命）
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./public/images/meguro-fudoson/meguro-fudoson_11.jpg" width="400"><br/>
+      <strong>Meguro Fudōson (Ryūsenji)</strong><br/>
+      目黒不動尊<br/>
+      Fudō Myōō（不動明王）
+    </td>
+    <td align="center">
+      <img src="./public/images/mishuku-shrine/mishuku-shrine_4.jpg" width="400"><br/>
+      <strong>Mishuku Shrine</strong><br/>
+      三宿神社<br/>
+      Ōyamatsumi-no-Kami（大山祇命）
+    </td>
+  </tr>
+</table>
+</div>
+
 ---
 
-## 🗾 GSI Mapping Example / 国土地理院マッピング例
+## 🗾 GSI Mapping / 国土地理院マッピング
 
-![mapping](./images/shrine-locations-mapping.JPG)
+![mapping](./public/images/shrine-locations-mapping.JPG)
 
 Using GSI maps to overlay shrine locations helps reveal geographic patterns.
 国土地理院の地図に神社を重ねることで、地形的な配置パターンを取り出せます。
@@ -88,9 +126,8 @@ Using GSI maps to overlay shrine locations helps reveal geographic patterns.
 ```
 shrine-network/
 ├── data/        # CSV, JSON data of shrines & deities
-├── scripts/     # Network building scripts
 ├── notebooks/   # Jupyter notebooks for exploration
-├── images/      # Shrine photos, GSI screenshots
+├── public/images/      # Shrine photos, GSI screenshots
 └── README.md
 ```
 
