@@ -19,10 +19,6 @@ Originally designed as a minimal working example in the "from-RDB-to-Network" jo
 
 > A sample visualisation of a real fungal mycelium-like network using NetworkX
 
-![Fungi Network Real](./image/fungi-network-real.png)
-
-> A sample visualisation of a real fungal mycelium-like network using NetworkX
-
 ---
 
 ## 📊 Goals
