@@ -25,6 +25,46 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 (https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/create/shrine-network/projects/from-rdb-to-network/shrine-network/notebooks/shrine_network_with_relational_data.ipynb)
 
 ---
+## 🧩 Data Model / データモデル
+
+Below is the ER diagram of the three core CSVs used to construct the shrine-deity network.
+
+以下は、神社×神々ネットワークを構築するための3つのCSVのER図です：
+
+<details>
+<summary>Click to expand Mermaid ER diagram</summary>
+
+```mermaid
+erDiagram
+  SHRINES ||--o{ SHRINE_DEITY : includes
+  DEITY ||--o{ SHRINE_DEITY : associated_with
+
+  SHRINES {
+    string id PK "Shrine ID"
+    string name "神社名（日本語）"
+    string name_en "Shrine Name (English)"
+    float latitude "緯度"
+    float longitude "経度"
+    string type "shrine or temple"
+  }
+
+  DEITY {
+    string id PK "Deity ID"
+    string name_ja "神名（日本語）"
+    string name_en "Deity Name (English)"
+
+  }
+
+  SHRINE_DEITY {
+    string shrine_id FK
+    string deity_id FK
+    string note "optional: special role or description"
+  }
+
+```
+</details>
+
+---
 
 ## 📊 Goals / 目標
 
@@ -36,6 +76,7 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
   多層的文化グラフのプロトタイプ
 
 ---
+
 
 ## 🚀 MVP Steps / MVP のステップ
 
