@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meguro River",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/318.png",
+        "_iconSize": [20, 20],
+        "_iconAnchor": [10, 10]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.707727, 35.636581]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ebara Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.74324, 35.617186, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shinagawa Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.739742, 35.618617, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irugi Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.725022, 35.620064, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meguro Fudoson",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/083.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.708017, 35.628855, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otori Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7082, 35.631994, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nakameguro Hachiman Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.70011, 35.639581, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Komatsunagi Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.68009, 35.638037, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamimeguro Hikawa Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.688158, 35.652815, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mishuku Shrine",
+        "description": "北沢川・烏山川合流点",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.673717, 35.651421, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taishido Hachiman Shrine",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [20, 20]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.66537, 35.64755, 0]
+      }
+    }
+  ]
+}
