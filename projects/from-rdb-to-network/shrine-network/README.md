@@ -92,6 +92,8 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 
 👉 [View on GSI Maps (Meguro Fudō Area) / 国土地理院の地図で見る（目黒不動周辺）](https://maps.gsi.go.jp/#14/35.635012/139.685755/&base=std&ls=std%7Canaglyphmap_color%2C0.47%7Cexperimental_landformclassification1%2C0.56&blend=0&disp=111&lcd=experimental_landformclassification1&vs=c1g1j0h0k0l0u0t0z0r0s0m0f0)
 
+👉 [View on Google Map (Meguro Fudō Area) / グーグルマップの地図で見る（目黒不動周辺）](https://maps.app.goo.gl/ekTJ6fZX6zTnPSL66)
+
 📎 [Download shrine-locations.geojson / shrine-locations.geojson をダウンロード](./data/shrine_meguro-river.geojson)
 
 > You can upload the above GeoJSON file onto the GSI map to visualize shrine locations as a custom layer.  
