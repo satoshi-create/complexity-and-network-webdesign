@@ -31,6 +31,9 @@ In the AI era, our mission is to authentically express complexity through web de
   - [🍄 Fungi Network Visualizer (MVP)](./projects/from-rdb-to-network/fungi-network/README.md)  
     A minimal prototype showing how mycelial networks can be visualized from CSV data using Python + NetworkX.
 
+  - [⛩ Shrine Network Visualizer (MVP)](./projects/from-rdb-to-network/shrine-network/README.md)  
+  A cultural network prototype connecting shrines and deities based on shared worship and spatial logic.
+
 - [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)  
   A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.
 
