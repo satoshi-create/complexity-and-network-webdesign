@@ -1,0 +1,12 @@
+﻿source_id,target_id,relation_type_ja,relation_type_en,description
+6,1,捕食,Predation,網クモがトビムシを捕食
+6,8,捕食,Predation,網クモがマルトビムシを捕食
+7,1,捕食,Predation,徘徊クモがトビムシを捕食
+5,4,捕食,Predation,アリがダンゴムシの幼体を攻撃
+5,8,捕食,Predation,アリがマルトビムシを捕食
+3,1,間接促進,Facilitation,ミミズの排泄物によりトビムシが繁栄
+3,10,相利共生,Mutualism,ミミズとトリコデルマの相利関係
+4,2,競合,Competition,ダンゴムシとヤスデが資源を競合
+2,9,競合,Competition,ヤスデとワラジムシが資源競合
+8,10,菌食,Mycophagy,マルトビムシがトリコデルマを摂食
+10,1,化学誘導,Chemo-attraction,トリコデルマ菌の匂いがトビムシを誘引

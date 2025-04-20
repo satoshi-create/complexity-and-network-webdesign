@@ -1,0 +1,11 @@
+﻿id,scientific_name,japanese_name,common_name,taxonomy,taxonomy_en,functional_role,functional_role_en,note
+1,Allonychiurus sp.,トビムシ,Springtail,内顎綱,Entognatha,分解者／菌食,Decomposer / Mycophagous,菌類と相互作用あり
+2,Glomeris sp.,ヤスデ,Millipede,ヤスデ目,Diplopoda,分解者,Decomposer,落葉層の分解を担う
+3,Lumbricus sp.,ミミズ,Earthworm,貧毛綱,Oligochaeta,土壌改良者,Soil Engineer,通気と糞による改良効果
+4,Armadillidium sp.,ダンゴムシ,Pill bug / Woodlouse,等脚目,Isopoda,分解者,Decomposer,擬死行動あり
+5,Formica sp.,アリ,Ant,膜翅目,Hymenoptera,捕食者／エンジニア,Predator / Ecosystem Engineer,土壌構造に影響
+6,Theridion sp.,網を張るクモ,Web-building Spider,クモ目,Araneae,捕食者（網）,Predator (Web-building),網で待ち伏せ型
+7,Pardosa sp.,徘徊クモ（コモリグモ）,Wandering Spider,クモ目,Araneae,捕食者（徘徊）,Predator (Wandering),地表を徘徊して捕食
+8,Entomobrya sp.,マルトビムシ,Elongate-bodied Springtail,内顎綱,Entognatha,分解者／菌食,Decomposer / Mycophagous,菌類の胞子を食べる
+9,Isopoda spp.,ワラジムシ,Slater / Isopod,等脚目,Isopoda,分解者,Decomposer,湿潤環境に出現
+10,Trichoderma sp.,トリコデルマ菌,Trichoderma fungus,子嚢菌門,Ascomycota,菌類（分解・共生）,Fungus (Decomposer / Mutualist),抗菌性と共生能力あり
