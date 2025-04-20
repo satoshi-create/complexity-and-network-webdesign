@@ -1,4 +1,4 @@
-﻿source_id,target_id,v,relation_type_en,description
+﻿source_id,target_id,relation_type_ja,relation_type_en,description
 6,1,捕食,Predation,網クモがトビムシを捕食
 6,8,捕食,Predation,網クモがマルトビムシを捕食
 7,1,捕食,Predation,徘徊クモがトビムシを捕食
