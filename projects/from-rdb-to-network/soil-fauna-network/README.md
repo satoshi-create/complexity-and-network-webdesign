@@ -32,6 +32,57 @@ Originally designed as an MVP in the "from-RDB-to-Network" journey, this tool de
 > シンプルなCSVベースのリレーショナルデータから、種間ネットワークがどのように立ち現れるかを示す最小動作例です。
 
 ---
+## 🧩 Data Model / データモデル
+
+Below is the ER diagram of the three core CSVs used to construct the soil fauna interaction network.  
+以下は、土壌動物ネットワークを構築するために使用される3つの主要なCSVファイルのER図です：
+
+
+```mermaid
+erDiagram
+
+    SPECIES {
+        int id PK
+        string scientific_name
+        string japanese_name
+        string common_name
+        string taxonomy
+        string taxonomy_en
+        string functional_role
+        string functional_role_en
+        string note
+    }
+
+    INTERACTION {
+        int source_id FK
+        int target_id FK
+        string relation_type
+        string description
+    }
+
+    SITE_SPECIES {
+        string site_id FK
+        int species_id FK
+        int abundance
+        date date
+        string note
+    }
+
+    SITES {
+        string site_id PK
+        string name
+        float latitude
+        float longitude
+        string soil_type
+        string note
+    }
+
+    SPECIES ||--o{ INTERACTION : is_source_of
+    SPECIES ||--o{ INTERACTION : is_target_of
+    SPECIES ||--o{ SITE_SPECIES : occurs_in
+    SITES ||--o{ SITE_SPECIES : contains
+```
+---
 
 ## 📊 Goals｜プロジェクトの目的
 
