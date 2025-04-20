@@ -34,6 +34,9 @@ In the AI era, our mission is to authentically express complexity through web de
   - [⛩ Shrine Network Visualizer (MVP)](./projects/from-rdb-to-network/shrine-network/README.md)  
   A cultural network prototype connecting shrines and deities based on shared worship and spatial logic.
 
+  - [🐜 Soil Fauna Network Visualizer (MVP)](./projects/from-rdb-to-network/soil-fauna-network/README.md)  
+      An ecological network prototype modeling species interactions in the soil using relational CSV and NetworkX.
+
 - [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)  
   A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.
 
