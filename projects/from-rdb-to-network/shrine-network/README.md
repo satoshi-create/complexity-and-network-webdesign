@@ -19,8 +19,8 @@ This project visualizes shrine-deity relationships as a cultural network rooted 
 - Ready for geospatial overlays (GSI Maps, GeoJSON)  
   地理院地図や GeoJSON との連携も可能
 
-![Shrine Network](./public/images/shrine_network_demo_with_deity.png)
-
+![Shrine Network](./public/images/shrine_network_demo_with_deity_en.png)
+![Shrine Network](./public/images/shrine_network_with_relational_data_ja.png)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 (https://colab.research.google.com/github/satoshi-create/complexity-and-network-webdesign/blob/create/shrine-network/projects/from-rdb-to-network/shrine-network/notebooks/shrine_network_with_relational_data.ipynb)
 
