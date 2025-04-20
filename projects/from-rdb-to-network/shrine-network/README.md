@@ -31,8 +31,6 @@ Below is the ER diagram of the three core CSVs used to construct the shrine-deit
 
 以下は、神社×神々ネットワークを構築するための3つのCSVのER図です：
 
-<details>
-<summary>Click to expand Mermaid ER diagram</summary>
 
 ```mermaid
 erDiagram
@@ -62,8 +60,6 @@ erDiagram
   }
 
 ```
-</details>
-
 ---
 
 ## 📊 Goals / 目標
