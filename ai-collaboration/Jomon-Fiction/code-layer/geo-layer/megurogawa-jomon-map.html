@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bfee59fa102730d8ecac2a73455aa610 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bfee59fa102730d8ecac2a73455aa610" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bfee59fa102730d8ecac2a73455aa610 = L.map(
+                "map_bfee59fa102730d8ecac2a73455aa610",
+                {
+                    center: [35.63, 139.72],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_836ac9de536d044ff74ba9f16e69130d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var marker_82e8e9607fa85618ac09304e197a4bde = L.marker(
+                [35.6346, 139.7144],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_414b0318dc923547b4e3bf4248f13941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82e8e9607fa85618ac09304e197a4bde.setIcon(icon_414b0318dc923547b4e3bf4248f13941);
+        
+    
+        var popup_76ff6d5a24a4785ecc53dfe2023f300b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1c3ea74f0bbaf76caa0f58be8d51b4a = $(`<div id="html_f1c3ea74f0bbaf76caa0f58be8d51b4a" style="width: 100.0%; height: 100.0%;">Meguro Fudo Site (archaeological site)</div>`)[0];
+            popup_76ff6d5a24a4785ecc53dfe2023f300b.setContent(html_f1c3ea74f0bbaf76caa0f58be8d51b4a);
+        
+
+        marker_82e8e9607fa85618ac09304e197a4bde.bindPopup(popup_76ff6d5a24a4785ecc53dfe2023f300b)
+        ;
+
+        
+    
+    
+            var marker_dea376877f8e58c9d06cea270d9dd32c = L.marker(
+                [35.6073, 139.7381],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_fa686c9087dfddf21552cf4d95b03bdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dea376877f8e58c9d06cea270d9dd32c.setIcon(icon_fa686c9087dfddf21552cf4d95b03bdc);
+        
+    
+        var popup_1af9f431dd5bc3c7a0c98c113197cd3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f51aac7803b1efaec500ec657d8ff42e = $(`<div id="html_f51aac7803b1efaec500ec657d8ff42e" style="width: 100.0%; height: 100.0%;">Shinagawa Shrine (shrine)</div>`)[0];
+            popup_1af9f431dd5bc3c7a0c98c113197cd3a.setContent(html_f51aac7803b1efaec500ec657d8ff42e);
+        
+
+        marker_dea376877f8e58c9d06cea270d9dd32c.bindPopup(popup_1af9f431dd5bc3c7a0c98c113197cd3a)
+        ;
+
+        
+    
+    
+            var marker_bac7d78f18299847a4195ee3708fabca = L.marker(
+                [35.5869, 139.7343],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_75754c264dc4e8903181cf7499b6b2bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bac7d78f18299847a4195ee3708fabca.setIcon(icon_75754c264dc4e8903181cf7499b6b2bc);
+        
+    
+        var popup_6b8f6a7f8a586ec170983241fc570981 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_784e217b1ec9921ae0d232196c3e6e4f = $(`<div id="html_784e217b1ec9921ae0d232196c3e6e4f" style="width: 100.0%; height: 100.0%;">Omori Shell Mound (shell mound)</div>`)[0];
+            popup_6b8f6a7f8a586ec170983241fc570981.setContent(html_784e217b1ec9921ae0d232196c3e6e4f);
+        
+
+        marker_bac7d78f18299847a4195ee3708fabca.bindPopup(popup_6b8f6a7f8a586ec170983241fc570981)
+        ;
+
+        
+    
+    
+            var marker_0be26ffeab0ba39366858f3a1efa70cc = L.marker(
+                [35.6423, 139.7384],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_e524320b78a26a7ef109f56b9c487009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0be26ffeab0ba39366858f3a1efa70cc.setIcon(icon_e524320b78a26a7ef109f56b9c487009);
+        
+    
+        var popup_d83f0903d97a13ac5a539e1d0e3a3538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9699dfd0940e0e6da510804217c12734 = $(`<div id="html_9699dfd0940e0e6da510804217c12734" style="width: 100.0%; height: 100.0%;">Isarago Shell Mound (shell mound)</div>`)[0];
+            popup_d83f0903d97a13ac5a539e1d0e3a3538.setContent(html_9699dfd0940e0e6da510804217c12734);
+        
+
+        marker_0be26ffeab0ba39366858f3a1efa70cc.bindPopup(popup_d83f0903d97a13ac5a539e1d0e3a3538)
+        ;
+
+        
+    
+    
+            var marker_55cd912266cc6fe351f7fec1ac5ef6a1 = L.marker(
+                [35.6514, 139.6876],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_8fca406c28a31712ffa4a0c8965d37bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55cd912266cc6fe351f7fec1ac5ef6a1.setIcon(icon_8fca406c28a31712ffa4a0c8965d37bb);
+        
+    
+        var popup_fe9ac466f9b2a5b2342a421cc9d281ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_637351fdb6ddd60e18ba57af74761c0f = $(`<div id="html_637351fdb6ddd60e18ba57af74761c0f" style="width: 100.0%; height: 100.0%;">Hikawa Site (archaeological site)</div>`)[0];
+            popup_fe9ac466f9b2a5b2342a421cc9d281ef.setContent(html_637351fdb6ddd60e18ba57af74761c0f);
+        
+
+        marker_55cd912266cc6fe351f7fec1ac5ef6a1.bindPopup(popup_fe9ac466f9b2a5b2342a421cc9d281ef)
+        ;
+
+        
+    
+    
+            var marker_b849a6875f767dc811d9ba1a7abd442c = L.marker(
+                [35.6216, 139.6937],
+                {}
+            ).addTo(map_bfee59fa102730d8ecac2a73455aa610);
+        
+    
+            var icon_28fb028cd171c58f08bfe2ace67942b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b849a6875f767dc811d9ba1a7abd442c.setIcon(icon_28fb028cd171c58f08bfe2ace67942b5);
+        
+    
+        var popup_2a369b6daf07c6cde97e9486ab85b3be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_487a518263d8e68884417a5a137b35d5 = $(`<div id="html_487a518263d8e68884417a5a137b35d5" style="width: 100.0%; height: 100.0%;">Enyuji Site (archaeological site)</div>`)[0];
+            popup_2a369b6daf07c6cde97e9486ab85b3be.setContent(html_487a518263d8e68884417a5a137b35d5);
+        
+
+        marker_b849a6875f767dc811d9ba1a7abd442c.bindPopup(popup_2a369b6daf07c6cde97e9486ab85b3be)
+        ;
+
+        
+    
+</script>
+</html>
