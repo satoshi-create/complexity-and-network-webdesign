@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tobino",
+    "name": "トビノ",
+    "species": "Collembola",
+    "role": "networker",
+    "personality": ["quiet", "curious", "sensitive"],
+    "description": "A fragile but curious springtail who begins his journey when the fungal voices fall silent.",
+    "growth_arc": "Learns to listen, leap, and reconnect the severed fungal network.",
+    "icon": "🦠",
+    "voice_lines": {
+      "ja": ["菌の声が……聞こえない。", "跳ねるのは、逃げるためじゃない。"],
+      "en": ["The voices are gone...", "I leap not to flee—but to find them."]
+    }
+  }
+]
