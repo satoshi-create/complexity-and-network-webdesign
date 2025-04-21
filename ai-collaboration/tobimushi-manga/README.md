@@ -18,6 +18,8 @@ In **Tobimushi Manga**, we reimagine the springtail as a character named **Tobin
 
 ## 🔄 The 4+1 Layer Creative Loop / 創作を支える4+1層構造
 
+👉 [See how to contribute → `CONTRIBUTING.md`](./CONTRIBUTING.md)
+
 ```mermaid
 graph TD
   %% 層の定義（役割付き）
