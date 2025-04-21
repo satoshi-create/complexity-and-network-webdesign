@@ -18,6 +18,16 @@ With a flick of his body, he leapt—
 not in fear,
 but in search of a voice that once echoed beneath his feet.
 
+土はまだ湿っていた。だが、響きがなかった。  
+胞子のささやきも、菌糸の脈動も消えていた。  
+トビノは動きを止め、触角を空（くう）へ揺らした。  
+この静けさは、安らぎではない。  
+「不在」だった。
+
+トビノは体をひねり、跳ねた──  
+恐れからではなく、  
+かつて足元で囁いていた“声”を探しに。
+
 ---
 
 ### 🧠 Character Notes
