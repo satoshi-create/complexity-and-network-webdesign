@@ -1,6 +1,6 @@
 # Scene 001: The Daughter of the Magatama / 勾玉の娘
 
-![scene_001_magatama](scene_001_magatama.png)
+![scene_001_magatama](story_001_magatama.png)
 
 ---
 
