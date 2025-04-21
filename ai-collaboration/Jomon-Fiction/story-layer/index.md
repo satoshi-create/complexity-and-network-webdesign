@@ -16,7 +16,7 @@ Each narrative is built from local observations, archaeological insights, and AI
 
 - **舞台**：東京・目黒川流域（湧水地・河口・神社ネットワーク）
 - **視点人物**：
-  - _シナ_（Shina）：川湊に立つ巫女の娘。海を見張る者。
+  - _シーナ_（Shina）：川湊に立つ巫女の娘。海を見張る者。
   - _メグロ_（Meguro）：傷を癒す火の使い手。湧水のそばに暮らす。
   - _ウグイスダの長_：富士を祀る土器焼き職人。
 - **関連ファイル**：

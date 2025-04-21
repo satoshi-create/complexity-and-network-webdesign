@@ -9,7 +9,7 @@
 - keyword: 貝塚
   context: 食料としての貝類消費後、殻を一定場所に堆積させた遺跡。縄文時代では祭祀・贈与の痕跡ともされ、時に村の境界や聖地の印として機能した。考古学的には当時の食文化や環境復元の重要な手がかりとなる。
   motif: 境界・記憶・贈与
-  linked_story: シナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
+  linked_story: シーナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
   reference: 大森貝塚、伊皿子貝塚
   related_keywords: [ハマ貝塚, 聖地, 食文化, 貝の祭祀]
   english: "Shell mound: Accumulations of shell remains, not only as food waste but often interpreted as sites for rituals and gifts, marking village boundaries and sacred zones."
@@ -17,7 +17,7 @@
 - keyword: ハマ貝塚
   context: 海に近い立地に築かれた大規模貝塚。主にハイガイ・マガキなどの貝類が意図的に集積され、地形的にも「陸と海の結界」としての役割を持った可能性。近年は神聖な場であったとする説が有力。物語では「キラキラと光る」場面として象徴される。
   motif: 海陸の境界・供犠・反復
-  linked_story: シナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
+  linked_story: シーナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
   reference: 大森貝塚、伊皿子貝塚
   related_keywords: [浜, 潮の満ち引き, 結界, 祭祀]
   english: "Coastal shell mound: Monumental accumulations of marine shells at ancient coastlines, possibly functioning as sacred sites or ritual boundaries between land and sea."
