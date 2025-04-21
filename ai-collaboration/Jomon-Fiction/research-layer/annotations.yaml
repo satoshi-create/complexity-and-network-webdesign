@@ -4,7 +4,11 @@
   reference: 下目黒複合遺跡
 
 - keyword: 貝塚
-  context: 祭祀・贈与・食文化の痕跡。物語では「キラキラと光る」印象に転換。
+  context: 祭祀・贈与・食文化の痕跡。
+  linked_story: シナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
+
+- keyword: ハマ貝塚
+  context: 縄文から弥生時代にかけて貝殻を集積した痕跡。近年は神聖な場であったという説がある。物語では「キラキラと光る」印象に転換。
   linked_story: シナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
 
 - keyword: 疫病と川

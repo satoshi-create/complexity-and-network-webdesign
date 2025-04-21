@@ -12,6 +12,6 @@
 
 ## 推奨ファイル構成
 
-- `XXX-digest.md`：地域やテーマごとの要約ファイル
+- `meguro-river-digest.md`：地域やテーマごとの要約ファイル
 - `annotations.yaml`：語句と考古的意味づけの対応表
 - `references.bib`：参照した論文・資料・記事の記録
