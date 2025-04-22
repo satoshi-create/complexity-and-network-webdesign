@@ -1,0 +1,23 @@
+{
+  "id": "resonance-tuner",
+  "type": "tool",
+  "name": {
+    "en": "Resonance Tuner",
+    "ja": "共鳴チューナー"
+  },
+  "description": {
+    "en": "A biosensory tool used by Tobino to detect disruptions in the mycorrhizal network.",
+    "ja": "トビノが菌糸ネットワークの異常を検知するために用いる生体センサー装置。"
+  },
+  "usedBy": ["tobino"],
+  "tags": ["biosensor", "fungal-network", "ecological-device"],
+  "appearance": {
+    "material": ["chitin", "fungal fiber"],
+    "effects": ["bioluminescence", "vibration feedback"]
+  },
+  "episodes": ["episode-01", "episode-02"],
+  "image": {
+    "icon": "./images/icon.png",
+    "full": "./images/full.png"
+  }
+}
