@@ -31,7 +31,7 @@ This project is built on layered components:
 
 | Scene ID | Title (EN / JA) | Visual |
 |----------|------------------|--------|
-| `001` | The Daughter of the Magatama / 動玉の娘 | ![scene](./4_publication-layer/scene_001_magatama/story_001_magatama.png) |
+| `001` | The Daughter of the Magatama / 勾玉の娘 | ![scene](./4_publication-layer/scene_001_magatama/story_001_magatama.png) |
 
 → [📖 Read more](./4_publication-layer/scene_001_magatama/index.md)
 
