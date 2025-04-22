@@ -25,6 +25,15 @@ zukan/
 ```
 
 ---
+## 🔍 Registered Characters / 登録済キャラクター一覧
+
+![Tobino Icon](visual-assets/characters/tobino-icon.png)
+
+| ID        | Name (EN / JA) | Species     | Type       | Description (EN) |
+|-----------|----------------|-------------|------------|------------------|
+| `tobino`  | Tobino / トビノ | Collembola  | networker  | A tiny traveler who senses disruptions in the mycorrhizal network. |
+
+---
 
 ## 🔧 Example JSON structure / characters.json の構造例
 
