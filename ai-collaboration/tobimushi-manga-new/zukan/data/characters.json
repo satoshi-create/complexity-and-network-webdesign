@@ -1,1 +1,26 @@
-{}
+{
+  "id": "tobino",
+  "name": {
+    "ja": "トビノ",
+    "en": "Tobino"
+  },
+  "species": "Collembola",
+  "type": "networker",
+  "role": ["disperser", "signal-carrier"],
+  "description": {
+    "ja": "菌糸ネットワークの断線を感知し、しるしを辿って世界を跳ね回る小さな旅人。好奇心は強いが、内向的で繊細。",
+    "en": "A tiny traveler who senses disruptions in the mycorrhizal network and follows subtle signs across the soil. Curious, quiet, and emotionally intuitive."
+  },
+  "appearance": {
+    "color": "pale brown",
+    "features": ["antennae", "furcula", "tiny claws"]
+  },
+  "related_to": ["mimizone", "spigumo"],
+  "status": "active",
+  "origin": {
+    "source": "episode-01",
+    "created_by": "satoshi",
+    "ai_generated": false
+  },
+  "image": "visual-assets/characters/tobino.png"
+}
