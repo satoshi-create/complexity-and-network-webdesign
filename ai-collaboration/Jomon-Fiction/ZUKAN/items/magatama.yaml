@@ -1,0 +1,14 @@
+id: magatama
+name:
+  ja: 勾玉
+  en: Magatama
+type: 装身具 / Ornament
+material: 翡翠・瑪瑙 / Jade, Agate
+period: 縄文中期〜弥生 / Mid Jomon to Yayoi
+context: 信仰や身分の象徴とされる。夢・記憶・癒しの媒体として物語に登場。
+linked_story:
+- scene_001_magatama
+geo_context: 目黒川流域・長野県姫川流域
+ai_prompt: A glowing jade magatama from the Jomon period, worn around the neck of
+  a young healer. The light reflects memory and healing rituals.
+image: magatama_healing_poseA.png
