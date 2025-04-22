@@ -25,6 +25,22 @@ zukan/
 ```
 
 ---
+## 🔍 Registered Characters / 登録済キャラクター一覧
+
+<table>
+  <tr>
+    <th>Icon</th><th>Name</th><th>Species</th><th>Type</th><th>Description</th>
+  </tr>
+  <tr>
+    <td><img src="visual-assets/characters/tobino-icon.png" width="80" /></td>
+        <td>Tobino / トビノ</td>
+    <td>Collembola</td>
+    <td>Networker</td>
+    <td>A curious springtail who reconnects fungal networks.</td>
+  </tr>
+</table>
+
+---
 
 ## 🔧 Example JSON structure / characters.json の構造例
 
