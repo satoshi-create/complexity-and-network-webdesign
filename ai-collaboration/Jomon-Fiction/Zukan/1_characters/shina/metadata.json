@@ -1,0 +1,12 @@
+{
+  "id": "shina",
+  "role": "narrative protagonist",
+  "traits": [
+    "dreamer",
+    "healer",
+    "river-born"
+  ],
+  "linked_scenes": [
+    "scene_001_magatama"
+  ]
+}
