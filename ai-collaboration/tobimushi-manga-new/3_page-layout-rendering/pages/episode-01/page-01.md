@@ -9,7 +9,7 @@ This document outlines the page layout structure for the first scene of Episode 
 
 ### Panel 1 / コマ ①
 
-![panel-1](./panel-1.png)
+![panel-1](../../../visual-assets/episode-01/panel-1.png)
 
 - 📷 イメージ：地中の断面図。菌糸ネットワークが徐々に消えゆく様子。
 - 💬 吹き出し（ナレーション）：「朝。聞こえるはずの“音”が、ない。」
@@ -17,7 +17,7 @@ This document outlines the page layout structure for the first scene of Episode 
 
 ### Panel 2 / コマ ②
 
-![panel-2](./panel-2.png)
+![panel-2](../../../visual-assets/episode-01/panel-2.png)
 
 - 📷 イメージ：トビノが中央で耳を澄ます（触角が緊張している）
 - 💬 モノローグ：「…また静かだ。菌の歌が聞こえない。」
@@ -25,7 +25,7 @@ This document outlines the page layout structure for the first scene of Episode 
 
 ### Panel 3 / コマ ③
 
-![panel-3](./panel-3.png)
+![panel-3](../../../visual-assets/episode-01/panel-3.png)
 
 - 📷 イメージ：菌糸が“プツッ”と切れたような描写。波紋が途絶える。
 - 💬 セリフ：「これは…断線？」
