@@ -1,0 +1,19 @@
+{
+  "id": "mimizuku_dogu_shinpukuji",
+  "name": {
+    "ja": "みみずく土偶（真福寺貝塚出土）",
+    "en": "Horned Owl Dogu (Mimizuku Dogu) from Shinpukuji Shell Mound"
+  },
+  "type": "dogu",
+  "material": "縄文土",
+  "period": "縄文後期",
+  "site": "真福寺貝塚",
+  "region": "埼玉県さいたま市（埼玉台地上）",
+  "coordinates": [35.940814, 139.70692],
+  "context_ja": "フクロウのような大きな目と耳を持つことから「みみずく土偶」と呼ばれる。豊穣・再生・守護などの祈りを象徴するとされる。子どもや女性を守る存在として語り継がれてきた可能性がある。",
+  "context_en": "Named for its owl-like features—large eyes and prominent ears—this dogu is believed to symbolize protection, fertility, and regeneration. It may have served as a guardian figure for children and women.",
+  "linked_story": null,
+  "geo_context": "埼玉台地上、元荒川と綾瀬川の流域圏に位置する",
+  "image": "mimizuku_dogu_shinpukuji.png",
+  "image_credit": "Wikimedia Commons / Tokyo National Museum\nhttps://commons.wikimedia.org/wiki/File:真福寺貝塚出土_みみずく土偶-2.JPG"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tsurite-doki_omori",
+  "name": {
+    "ja": "吊手土器（大森貝塚出土）",
+    "en": "Suspension Pottery (Tsurite Doki) from Omori Shell Mound"
+  },
+  "type": "pottery",
+  "form": "吊手型深鉢",
+  "material": "縄文土",
+  "period": "縄文晩期",
+  "site": "大森貝塚",
+  "region": "東京都品川区・大田区",
+  "context_ja": "三つの把手が上部に突き出た形式で、装飾性と機能性を兼ねる。火にかけて煮炊きしたと考えられるが、儀礼用途の可能性も指摘される。",
+  "context_en": "A deep pottery vessel with three elevated handles, combining utility and artistic form. Likely used for boiling, but possibly had ceremonial uses.",
+  "linked_story": null,
+  "geo_context": "目黒川下流域から南方へ20km",
+  "image": "tsurite_doki_omori.png",
+  "image_credit": "Wikimedia Commons / Tokyo National Museum Collection\nhttps://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%A3%AE%E8%B2%9D%E5%A1%9A%E5%87%BA%E5%9C%9F_%E5%90%8A%E6%89%8B%E5%9C%9F%E5%99%A8_(BD04-5).JPG"
+}

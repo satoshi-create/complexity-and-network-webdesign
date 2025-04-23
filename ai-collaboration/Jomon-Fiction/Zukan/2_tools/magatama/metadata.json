@@ -1,0 +1,16 @@
+{
+  "id": "magatama",
+  "name": {
+    "ja": "勾玉",
+    "en": "Magatama"
+  },
+  "type": "装身具 / Ornament",
+  "material": "翡翠・瑪瑙 / Jade, Agate",
+  "period": "縄文中期〜弥生 / Mid Jomon to Yayoi",
+  "context": "信仰や身分の象徴とされる。夢・記憶・癒しの媒体として物語に登場。",
+  "linked_story": ["scene_001_magatama"],
+  "geo_context": "目黒川流域・長野県姫川流域",
+  "ai_prompt": "A glowing jade magatama from the Jomon period, worn around the neck of a young healer. The light reflects memory and healing rituals.",
+  "image": "magatama_healing_poseA.png",
+  "image_credit": "Wikimedia Commons / Public Domain\nhttps://upload.wikimedia.org/wikipedia/commons/2/20/Ishikushiro%2C_magatama%2C_kiriko%2C_kudatama._Kofun._Mus%C3%A9e_Guimet.jpg"
+}

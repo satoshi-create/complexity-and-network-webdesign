@@ -1,0 +1,31 @@
+- keyword: 湧水
+  context: 武蔵野台地の斜面から湧き出す地下水。古くから人々の生活・祈り・清めの場として機能し、縄文時代には集落の成立要因ともなった。湧水周辺では豊かな植物相や小動物の多様性も育まれる。
+  motif: 再生・境界・命の循環
+  linked_story: メグロが暮らす湧水の斜面（story-layer/megurogawa/story_ja.md）
+  reference: 目黒不動遺跡
+  related_keywords: [斜面林, 湧き水, 湿地, 水神信仰]
+  english: "Springs: Outflows of groundwater from the Musashino Plateau slopes, serving as sites for life, prayer, and purification. In the Jomon period, springs often became focal points for settlements."
+
+- keyword: 貝塚
+  context: 食料としての貝類消費後、殻を一定場所に堆積させた遺跡。縄文時代では祭祀・贈与の痕跡ともされ、時に村の境界や聖地の印として機能した。考古学的には当時の食文化や環境復元の重要な手がかりとなる。
+  motif: 境界・記憶・贈与
+  linked_story: シーナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
+  reference: 大森貝塚、伊皿子貝塚
+  related_keywords: [ハマ貝塚, 聖地, 食文化, 貝の祭祀]
+  english: "Shell mound: Accumulations of shell remains, not only as food waste but often interpreted as sites for rituals and gifts, marking village boundaries and sacred zones."
+
+- keyword: ハマ貝塚
+  context: 海に近い立地に築かれた大規模貝塚。主にハイガイ・マガキなどの貝類が意図的に集積され、地形的にも「陸と海の結界」としての役割を持った可能性。近年は神聖な場であったとする説が有力。物語では「キラキラと光る」場面として象徴される。
+  motif: 海陸の境界・供犠・反復
+  linked_story: シーナが立つシナガワ川湊（story-layer/megurogawa/story_ja.md）
+  reference: 大森貝塚、伊皿子貝塚
+  related_keywords: [浜, 潮の満ち引き, 結界, 祭祀]
+  english: "Coastal shell mound: Monumental accumulations of marine shells at ancient coastlines, possibly functioning as sacred sites or ritual boundaries between land and sea."
+
+- keyword: 疫病と川
+  context: 水流のよどみや湿地帯は、古くから疫病の発生源として恐れられてきた。日本神話におけるスサノオ信仰や、疫病退散の祭りと結びつくことが多い。物語内では、「川に祈る」「水で清める」などのモチーフで登場。
+  motif: 災いと祈り・浄化・神の使い
+  linked_story: 池尻に祀られるスサノオと旅人の癒しエピソード
+  reference: 氷川遺跡、上目黒氷川神社
+  related_keywords: [スサノオ, 疫神, 湿地, 祭祀]
+  english: "Plague and river: Stagnant waters and wetlands were historically seen as sources of disease. Frequently linked to Susanoo worship and purification rituals in Japanese tradition."

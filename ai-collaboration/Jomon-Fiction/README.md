@@ -1,98 +1,93 @@
-# Jomon Fiction – AIと協働して描く縄文の物語  
-**Jomon Fiction – Reimagining the Jomon World Through AI Collaboration**
+# 🌀 Jomon Fiction / 縄文フィクション
+
+**Jomon Fiction** is a collaborative storytelling project that blends archaeology, landscape studies, and generative AI to reimagine the lives and land of the Jomon period in ancient Japan.  
+
+このプロジェクト「縄文フィクション」は、縄文時代の人々の暮らしや風景を、考古学・ランドスケープ・AIの協助によって小説的に再構成するオープンストーリーテリングです。
 
 ---
 
-## 🤝 概要 | Overview
+## 🐽 Project Overview / プロジェクト概要
+Jomon Fiction is envisioned as a subproject of [CANW: Complexity and Network Webdesign](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main).  
+Each short story is based on hub settlements (e.g., Tadao, Aku, Shimonoya sites), and draws on a multilayered structure of narrative, terrain, and network.
 
-「Jomon Fiction」は、**AI と人間が協働して縄文時代の景観ランドスケープを立ち上げるプロジェクト**です。
-本プロジェクトは、「複雑系とネットワークのウェブデザイン（CANW）」の中の [`ai-collaboration`](../) サブプロジェクトとして位置づけられています。
+Jomon Fiction は、[CANW（複雑系とネットワークのウェブデザイン）](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main) のサブプロジェクトとして構想されています。  
+それぞれの短編は、拠点的集落（忠生遺跡・阿久遺跡・下野谷遺跡など）を舞台に、多層的な構造（物語／地形／ネットワーク）をもとに描かれます。
 
-**Jomon Fiction** is a collaborative storytelling project where humans and AI co-create imaginative narratives set in the Jomon period of prehistoric Japan.  
-It is part of the [`ai-collaboration`](../) subproject within the **CANW (Complexity and Network-based Web Design)** initiative.
+This project is built on layered components:  
+このプロジェクトは以下の層で構成されています：
 
-
----
-
-## 🧭 目的と背景 | Purpose and Vision
-
-本プロジェクトでは、**忠生遺跡・阿久遺跡・下野谷遺跡**などの**拠点的集落**をテーマに、  
-ネットワーク・環境・信仰・暮らしといった複数の視点から小説を構築します。
-
-The project focuses on key Jomon settlements such as **Tadao, Aku, and Shimonoya**.  
-Each narrative explores these sites through the lenses of **networks, environment, belief systems, and daily life**.
-
----
-
-## 🤖 AIとの協働 | Working with AI
-
-本プロジェクトでは、以下のようにAIがクリエイティブプロセスに参加します：
-
-| 工程 | 人間の役割 | AIの役割 |
-|------|------------|----------|
-| 構想・調査 | 土地選定・視点設計・文脈把握 | 類例生成・構造提案・メタ的思考補助 |
-| 物語制作 | プロット構築・物語の声を決める | スタイル提案・構文補正・翻訳支援 |
-| 可視化 | ネットワーク構築・図解の構想 | Pythonによる可視化コード・出力整形 |
-| 図像制作 | 構図と質感の設計 | DALL·E等による画像生成 |
-
-In this project, AI acts as a **creative partner** in the following stages:
-
-| Phase | Human Role | AI Role |
-|-------|------------|---------|
-| Conceptualization | Selecting sites, perspectives, and contexts | Generating patterns, offering structural suggestions |
-| Writing | Designing plots, narrative tone and characters | Style assistance, syntax feedback, bilingual translation |
-| Visualization | Designing networks and diagrams | Python code for graph generation, image formatting |
-| Image Creation | Planning visual themes and texture | Generating illustrations via DALL·E or similar tools |
+- `story-layer`: Narrative drafts, characters, and episode design  
+  物語・キャラクター・エピソード草稿
+- `research-layer`: Archaeological, geographic, and mythological research  
+  考古学・地理・神話の要素調査と再構成
+- `code-layer`: Network visualization and geospatial modeling (Python / GeoJSON)  
+  ネットワーク可視化や地理情報構築（Python / GeoJSON）
+- `publication-layer`: Structured publication of AI images, prompts, and bilingual commentary  
+  AI生成画像・プロンプト・多言語解説の構造化公開
 
 ---
 
-## 📁 ディレクトリ構成 | Directory structure
+## 📚 Scenes / 作品一覧（MVP）
 
-```plaintext
-jomon-fiction/
-├── README.md
-├── index.md
-├── sites/
-│   ├── tadao/
-│   │   ├── story_ja.md         ← 忠生遺跡物語（日本語）
-│   │   ├── story_en.md         ← Tadao story (English)
-│   │   ├── network.ipynb       ← ネットワーク図生成（Jupyter）
-│   │   └── images/
-│   │       └── landscape.png
-│   ├── aku/
-│   │   └── ...
-│   └── shimonoya/
-│       └── ...
-├── common-assets/
-│   └── css, fonts, templates
-├── characters/
+| Scene ID | Title (EN / JA) | Visual |
+|----------|------------------|--------|
+| `001` | The Daughter of the Magatama / 勾玉の娘 | ![scene](./4_publication-layer/scene_001_magatama/story_001_magatama.png) |
+
+→ [📖 Read more](./4_publication-layer/scene_001_magatama/index.md)
+
+---
+
+## 🤖 AI Collaboration / AIとの協働
+
+Jomon Fiction actively integrates generative AI in the creation of prompts, images, and structural design.  
+本プロジェクトでは、プロンプト設計・画像生成・構造分析において生成AIの協働を積極的に活用しています。
+
+- DALL·E: Image generation  
+  DALL·E：イメージ生成
+- GPT-4: Story development, translation, and geographical annotation  
+  GPT-4：物語生成・翻訳・地理注釈支援
+- Mermaid / NetworkX / Folium: Visualization tools  
+  Mermaid / NetworkX / Folium：可視化支援
+
+---
+
+## 📂 Directory Structure / ディレクトリ構成
 
 ```
+Jomon-Fiction/
+├— story-layer/            # 小説草稿・観察・キャラ設定
+├— research-layer/         # 遺跡情報・地形分析・注釈
+├— code-layer/             # ネットワーク・地図可視化（Python）
+├— publication-layer/      # 公開画像・プロンプト・解説
+└— README.md
+```
+```mermaid
+graph TD
+  A[📜 1_story-layer<br>物語と観察<br>🖋 ノンコーダー歓迎] --> B[🔍 2_research-layer<br>考古・地理の解釈<br>🧪 リサーチ・注釈]
+  B --> C[🧠 3_code-layer<br>ネットワーク・地図実装<br>💻 Python, GeoJSON]
+  C --> D[🌏 4_publication-layer<br>画像・プロンプトの公開<br>🖼 翻訳・公開整備]
+  D --> A
 
-
-
-※ 日本語と英語は**同一ディレクトリ内に併記**し、翻訳ではなく**文化的再構成**として扱います。
-
+  subgraph  AI支援
+    A -.-> AI1[プロンプト生成・語り口の提案]
+    B -.-> AI2[要約・再構成・注釈の補助]
+    C -.-> AI3[コード生成・視覚化補助]
+    D -.-> AI4[構造化公開の支援]
+  end
+```
 ---
 
-## 🌐 発信と公開 | Publishing & Outreach
+## 🌱 How to Contribute / 貢献するには
 
-- note連載（予定）:
-- CANWウェブサイトとの連携を予定  
-- 生成物（物語、図像、ネットワーク図など）はOSSとして公開予定
+We welcome contributors with interest in archaeology, spatial storytelling, or networked thinking.  
+考古・地形・信仰に関心のある方、ストーリーテリングやビジュアル表現が好きな方、GeoJSON, Python, Mermaid などで可視化を手伝いたい方を歓迎します。
 
-This project will be shared via:
-- Serialized posts on note.com 
-- Integration with the CANW website  
-- Open-source publication of all stories, images, and networks
+- Interested in prehistoric cultures, Jomon archaeology, or sacred geography  
+  先史文化・縄文考古・聖なる地形に関心がある方
+- Passionate about digital storytelling or poetic worldbuilding  
+  ストーリーテリング・詩的構築に熱意がある方
+- Comfortable with open-source collaboration (GitHub, Markdown, etc.)  
+  オープンソース開発（GitHub、Markdown等）に慣れている方
 
----
+👉 [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-## 🚧 現在進行中 | Work in Progress
-
-- [x] README bilingual draft  
-- [ ] 忠生遺跡編 プロット執筆中  
-- [ ] obsidian/shell trade ネットワーク構造のモデリング  
-- [ ] note連載（2025年4月公開予定）
-
----
