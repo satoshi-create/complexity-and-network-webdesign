@@ -89,5 +89,5 @@ We welcome contributors with interest in archaeology, spatial storytelling, or n
 - Comfortable with open-source collaboration (GitHub, Markdown, etc.)  
   オープンソース開発（GitHub、Markdown等）に慣れている方
 
-👉 [CONTRIBUTING.md（準備中）](./CONTRIBUTING.md)
+👉 [CONTRIBUTING.md](./CONTRIBUTING.md)
 
