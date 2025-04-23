@@ -45,9 +45,25 @@ In the AI era, our mission is to authentically express complexity through web de
 ### 🔬 Experimental Areas
 - [🧪 Experiments](./experiments/README.md)
 
-### 🤖 AI Collaboration
- - [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)  
-   exploring the Jomon world through AI-assisted storytelling, networks, and landscape.
+## 🤖 AI Collaboration / AI 協働層
+
+Creative subprojects that use generative AI tools to support worldbuilding, storytelling, and visualization.  
+生成 AI を活用して世界観構築・物語生成・視覚化を支援する創造的サブプロジェクト群。
+
+### 📘 [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)
+
+Exploring the Jomon world through AI-assisted storytelling, networks, and landscape.  
+AI 支援による物語・ネットワーク・地形思考で縄文世界を再構成。
+
+![Jomon Fiction](./ai-collaboration/Jomon-Fiction/4_publication-layer/scene_001_magatama/story_001_magatama.png)
+
+### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
+
+A sci-fi manga exploring soil ecology and silent mycorrhizal networks via AI-human collaboration.  
+土壌生態と菌糸ネットワークを舞台に、AI と人間の協働で生まれた SF マンガ。
+
+![Tobimushi Manga](./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png)
+
 
 ### 🖼️ Media & Visuals
 - [📷 Media Library](./media/README.md)
