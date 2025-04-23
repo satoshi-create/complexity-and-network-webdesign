@@ -1,8 +1,42 @@
 {
   "characters": [
-    "shina"
+    {
+      "id": "shina",
+      "name_ja": "シーナ",
+      "name_en": "Shina",
+      "category": "characters",
+      "path": "characters/shina",
+      "image": "characters/shina/images/icon.png"
+    }
   ],
   "tools": [
-    "magatama"
+    {
+      "id": "magatama",
+      "name_ja": "勾玉",
+      "name_en": "Magatama",
+      "category": "tools",
+      "path": "tools/magatama",
+      "image": "tools/magatama/images/magatama_healing_poseA.png"
+    }
+  ],
+  "pottery": [
+    {
+      "id": "tsurite-doki_omori",
+      "name_ja": "吊手土器",
+      "name_en": "Suspension Pottery",
+      "category": "pottery",
+      "path": "pottery/tsurite-doki_omori",
+      "image": "pottery/tsurite-doki_omori/images/tsurite_doki_omori.jpg"
+    }
+  ],
+  "dogu": [
+    {
+      "id": "mimizuku_dogu_shinpukuji",
+      "name_ja": "みみずく土偶",
+      "name_en": "Horned Owl Dogu",
+      "category": "dogu",
+      "path": "dogu/mimizuku",
+      "image": "dogu/mimizuku/images/mimizuku_dogu_shinpukuji.jpg"
+    }
   ]
 }
