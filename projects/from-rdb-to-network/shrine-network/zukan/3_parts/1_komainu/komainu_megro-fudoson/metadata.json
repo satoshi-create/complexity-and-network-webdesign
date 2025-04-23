@@ -1,0 +1,25 @@
+{
+  "id": "komainu_0002",
+  "shrine": "目黒不動尊",
+  "shrine_en": "Meguro Fudoson",
+  "location": {
+    "lat": 35.628855,
+    "lng": 139.708017
+  },
+  "material": "石造",
+  "style": "江戸型",
+  "mouth_type": "阿吽一対",
+  "pose": "座型",
+  "position": "拝殿手前石垣上",
+  "notable_features": [
+    "渦巻き状の巻毛",
+    "胸元の陰刻文様",
+    "デフォルメされた顔立ち"
+  ],
+  "estimated_period": "江戸後期",
+  "source_image_ids": [
+    "meguro-fudoson_15.jpg",
+    "meguro-fudoson_29.jpg",
+    "meguro-fudoson_41.jpg"
+  ]
+}

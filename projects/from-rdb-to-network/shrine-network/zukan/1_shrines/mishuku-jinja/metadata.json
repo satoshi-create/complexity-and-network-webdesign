@@ -1,1 +1,11 @@
-{"name": "Mishuku Jinja", "deity": "susanoo", "location": "Tokyo"}
+{
+  "id": 10,
+  "name": "三宿神社",
+  "name_en": "Mishuku Shrine",
+  "lat": 35.651421,
+  "lng": 139.673717,
+  "type": "Shinto Shrine",
+  "founded": null,
+  "river_area": "Karasuyama River",
+  "category": "Tamon Temple,Setagaya Casstle"
+}

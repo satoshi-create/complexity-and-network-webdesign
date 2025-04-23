@@ -1,1 +1,8 @@
-{"name": "Susanoo", "type": "Kami"}
+{
+  "id": 18,
+  "name": "素盞嗚尊",
+  "name_en": "Susanoo-no-Mikoto",
+  "category": "storm, sea, purification, rebellion",
+  "mythology": "Kojiki, Nihon Shoki",
+  "related_deities": ["Amaterasu", "Tsukuyomi", "Okuninushi"]
+}

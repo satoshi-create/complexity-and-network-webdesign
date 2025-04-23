@@ -1,0 +1,24 @@
+{
+  "id": "komainu_0003",
+  "shrine": "上目黒氷川神社",
+  "shrine_en": "Kamimeguro Hikawa Shrine",
+  "location": {
+    "lat": 35.645422,
+    "lng": 139.696204
+  },
+  "material": "石造",
+  "style": "球持ち型",
+  "mouth_type": "阿吽一対",
+  "pose": "座型",
+  "position": "拝殿前",
+  "notable_features": [
+    "前脚で玉を押さえたデザイン",
+    "炎のように流れる尾と巻毛",
+    "左右対で極めて装飾的な造形"
+  ],
+  "estimated_period": "明治〜昭和初期",
+  "source_image_ids": [
+    "kamimeguro-hikawa-shrine_20.jpg",
+    "kamimeguro-hikawa-shrine_21.jpg"
+  ]
+}
