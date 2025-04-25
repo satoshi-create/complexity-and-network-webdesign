@@ -22,17 +22,13 @@ flowchart TB
   A[北側道路]:::path
 
   subgraph 3tsubo-farm 区画
-    B1[⬜ mvp-bed-01_kiri-mulch\n(桐の木ゾーン)]:::active
+    B1[⬜ mvp-bed-01_kiri-mulch]:::active
     B2[⬜ （未設置）]:::vacant
     B3[⬜ （未設置）]:::vacant
   end
 
   A --> B1
   B1 --> B2 --> B3
-
-  classDef active fill:#d0f0c0,stroke:#228b22;
-  classDef vacant fill:#f0f0f0,stroke:#ccc;
-  classDef path stroke-dasharray: 5 5;
 ```
 
 ---
