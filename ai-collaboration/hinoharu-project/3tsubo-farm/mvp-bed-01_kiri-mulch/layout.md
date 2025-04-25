@@ -8,11 +8,6 @@ graph TD
   C:::tillage
   D:::soilcore
 
-  classDef mulch fill:#c2f0c2,stroke:#2e8b57,stroke-width:2px;
-  classDef biolayer fill:#f9f9b4,stroke:#bfa700,stroke-width:2px;
-  classDef tillage fill:#d1c4e9,stroke:#6a1b9a,stroke-width:2px;
-  classDef soilcore fill:#bcaaa4,stroke:#4e342e,stroke-width:2px;
-
   subgraph 作物
     E1[🌽 トウモロコシ（30cm間隔）] 
     E2[🥕 ダイコン（25cm間隔）] 
