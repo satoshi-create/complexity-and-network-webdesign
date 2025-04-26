@@ -9,24 +9,125 @@
 
 ## 📷 パーツ別一覧
 
-| パーツカテゴリ | タイトル（仮） | ファイル名 | 備考（自由記述） |
-|----------------|----------------|------------|-----------------|
-| 鳥居（Torii） | （仮）参道を導く朱鳥居 | torii_01.jpg |  |
-| 狛犬（Komainu） | （仮）巻物を咥えた小型狛犬 | komainu_01.jpg |  |
-| 社殿・拝殿（Shaden） | （仮）森を背負った西向き拝殿 | shaden_01.jpg | |
-| 社殿・拝殿（Shaden） | （仮）拝殿脇から見た本殿覆屋 | shaden_02.jpg | |
-| 社殿・拝殿（Shaden） | （仮）拝殿正面と賽銭箱 | shaden_03.jpg | |
-| 参道（Sandō） | （仮）石段参道の中腹からの眺め | sando_01.jpg | |
-| 参道（Sandō） | （仮）住宅地から続く参道入口 | sando_02.jpg | |
-| 境内社・末社（Sessha, Massha） | （仮）本殿脇の境内社（小祠） | sessha_01.jpg | |
-| 手水舎・社務所（Shamusho） | （仮）簡素な授与所建物 | shamusho_01.jpg | |
-| 石碑・記念碑（Monument） | （仮）建立記念碑（石柱） | monument_01.jpg | |
-| 石碑・記念碑（Monument） | （仮）庚申塚跡の石碑 | monument_02.jpg | |
-| 境界・社号標（Boundary, Shagohyō） | （仮）三宿神社社号標 | boundary_01.jpg | |
-| 神紋・エンブレム（Emblem） | （仮）巴紋の刻まれた幕 | emblem_01.jpg | |
-| 地形（Terrain） | （仮）段丘の上に鎮座する境内 | terrain_01.jpg | |
-| 地形（Terrain） | （仮）崖地に沿った参道 | terrain_02.jpg | |
-| 周辺環境（Environment） | （仮）境内背後の湧水源跡 | environment_01.jpg | |
+# 三宿神社（Mishuku Jinja）パーツ写真グリッド一覧
+
+現地フィールドワークによる、パーツ別ビジュアルインデックスです。
+
+---
+
+## 🏯 鳥居（Torii）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/torii_01.jpg" width="30%" alt="参道を導く朱鳥居">
+
+</div>
+
+---
+
+## 🐲 狛犬・神使（Komainu）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/komainu_01.jpg" width="30%" alt="巻物を咥えた小型狛犬">
+
+</div>
+
+---
+
+## 🏛 社殿・拝殿（Shaden）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/shaden_01.jpg" width="30%" alt="森を背負った西向き拝殿">
+<img src="./images/shaden_02.jpg" width="30%" alt="拝殿脇から見た本殿覆屋">
+<img src="./images/shaden_03.jpg" width="30%" alt="拝殿正面と賽銭箱">
+
+</div>
+
+---
+
+## 🛤️ 参道（Sandō）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/sando_01.jpg" width="30%" alt="石段参道の中腹からの眺め">
+<img src="./images/sando_02.jpg" width="30%" alt="住宅地から続く参道入口">
+
+</div>
+
+---
+
+## ⛩️ 境内社・末社（Sessha, Massha）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/sessha_01.jpg" width="30%" alt="本殿脇の境内社（小祠）">
+
+</div>
+
+---
+
+## 🏠 社務所・授与所（Shamusho）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/shamusho_01.jpg" width="30%" alt="簡素な授与所建物">
+
+</div>
+
+---
+
+## 🪨 石碑・記念碑・民間石造物（Monument）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/monument_01.jpg" width="30%" alt="建立記念碑（石柱）">
+<img src="./images/monument_02.jpg" width="30%" alt="庚申塚跡の石碑">
+
+</div>
+
+---
+
+## 🪵 境界・社号標（Boundary, Shagohyō）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/boundary_01.jpg" width="30%" alt="三宿神社社号標">
+
+</div>
+
+---
+
+## 🎌 神紋・エンブレム（Emblem）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/emblem/emblem_01.jpg" width="30%" alt="巴紋の刻まれた幕">
+
+</div>
+
+---
+
+## 🏔️ 地形（Terrain）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/terrain_01.jpg" width="30%" alt="段丘の上に鎮座する境内">
+<img src="./images/terrain_02.jpg" width="30%" alt="崖地に沿った参道">
+
+</div>
+
+---
+
+## 🌱 周辺環境（Environment）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+
+<img src="./images/environment_01.jpg" width="30%" alt="境内背後の湧水源跡">
+
+</div>
+
 
 ---
 
