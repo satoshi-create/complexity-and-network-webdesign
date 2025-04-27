@@ -1,6 +1,7 @@
 # 三宿神社（Mishuku Jinja）パーツ写真インデックス
 
 ## 🏛 神社基本情報
+
 - 場所：東京都世田谷区三宿
 - 流域：目黒川流域
 - 特徴：湧水源近くの小高い地形に立地。住宅地に囲まれた鎮守の杜。
@@ -128,6 +129,23 @@
 
 </div>
 
+---
+
+## 🗺️ 地図・周辺状況（Maps）
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+  <img src="./maps/googlemap_50m.jpg" width="30%" alt="Googleマップ 標準地図 50mスケール">
+  <img src="./maps/gsi_landform_100m.jpg" width="30%" alt="国土地理院 地形分類図（自然地形）100mスケール">
+  <img src="./maps/gsi_aerial_1936_50m.jpg" width="30%" alt="国土地理院 航空写真（1936〜1942）50mスケール">
+  <img src="./maps/gsi_aerial_1961_100m.jpg" width="30%" alt="国土地理院 航空写真（1961年）100mスケール">
+  <img src="./maps/gsi_aerial_2019_100m.jpg" width="30%" alt="国土地理院 航空写真（2019年）100mスケール">
+</div>
+
+**備考**
+
+- 地形分類図から、三宿神社が台地縁辺部に立地していることが明確に読み取れる。
+- 航空写真から、戦前・戦後・現代にかけての鎮守の森の変遷を追跡可能。
+- 湧水地と崖線との位置関係も視覚的に検証できる。
 
 ---
 
