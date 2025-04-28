@@ -24,11 +24,4 @@ AI --- L2
 AI --- L3
 AI --- ZK
 
-%% 説明補足
-subgraph Note
-  direction TB
-  NK1[🔹 ZUKANは各レイヤーから参照・更新される]
-  NK2[🔹 本編とZUKANは並走しながら相互フィードバックする]
-end
-
 ```
