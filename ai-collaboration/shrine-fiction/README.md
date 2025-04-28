@@ -4,8 +4,8 @@ graph TD
 %% 本編の4層ループ
 L1[🏞️ Layer 1<br>現地観察・記録層<br>1_field-observation]
 L2[📚 Layer 2<br>構成整理・ドキュメント層<br>2_structural-documentation]
-L3[🧠 Layer 3<br>構造分析・再編集層<br>3_network-remapping]
-L4[🖋️ Layer 4<br>物語化・公開層<br>4_storytelling-publication]
+L3[🧠 Layer 3<br>舞台設定・物語化層<br>03_story-layer]
+L4[🖋️ Layer 4<br>翻訳・整備・公開層<br>4_publication-layer]
 
 L1 --> L2 --> L3 --> L4 --> L1
 
@@ -23,12 +23,5 @@ AI --- L1
 AI --- L2
 AI --- L3
 AI --- ZK
-
-%% 説明補足
-subgraph Note
-  direction TB
-  NK1[🔹 ZUKANは各レイヤーから参照・更新される]
-  NK2[🔹 本編とZUKANは並走しながら相互フィードバックする]
-end
 
 ```
