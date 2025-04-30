@@ -18,7 +18,7 @@
 
 ## 第0章 プロローグ 顔なきもの
 
-![chapter-0-prologue.png](./images/chapter-01.png)
+![chapter-00-prologue](./images/chapter-00-prologue.png)
 
 土曜日の午後だった。
 冬の光は、まるで誰かのため息みたいに、細く伸びていた。
@@ -81,6 +81,8 @@
 
 ## 第1章 縄文湧水森シーン
 
+![chapter-01-jomon-spring-water-forest](./images/chapter-01-jomon-spring-water-forest.png)
+
 ふっと足元が柔らかくなった。
 
 緑色の光に包まれて、
@@ -136,6 +138,8 @@
 
 ## 第2章 命の泉で最初の贈り物を受け取るシーン
 
+![chapter-02-the-spring-of-life](./images/chapter-02-the-spring-of-life.png)
+
 ぼくは、湧き出す水のすぐそばまで来ていた。
 
 崖の中腹から吹き出す水は、白い霧になって森を包んでいる。
@@ -181,6 +185,8 @@
 ——これが、おまえの鍵だよ。
 
 ## 第3章 池尻=魑魅魍魎領域への突入
+
+![cchapter-03_descent-into-the-Realm-of-chimi-mōryō](./images/chapter-03_descent-into-the-Realm-of-chimi-mōryō.png)
 
 水のかたちをした石を手に、
 ぼくは森の中を歩き出した。
@@ -255,6 +261,8 @@
 とても大きなものが、近づいてきた。
 
 ## 第4章 異界から現代に戻る
+
+![chapter-04_return-to-the-modern-world](./images/chapter-04_return-to-the-modern-world.png)
 
 水たまりの奥から、
 何かが、
