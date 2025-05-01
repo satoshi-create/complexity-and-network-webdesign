@@ -318,6 +318,8 @@
 
 ## 第5章 中世レイヤー突入シーン
 
+![chapter-05_medieval-layer](./images/chapter-05_medieval-layer.png)
+
 ぼくは、
 もう一度、
 あの広場に来ていた。
@@ -384,6 +386,8 @@
 すでにはじまっていた。
 
 ## 第6章 中世：多聞寺原型（湧水守護の祠）発見シーン
+
+![chapter-06_ discovery-of-the-tamon-temple-shrine](./images/chapter-06_discovery-of-the-tamon-temple-shrine.png)
 
 崖を背に、
 ぼくは、小さな獣道のような小道をたどっていた。
