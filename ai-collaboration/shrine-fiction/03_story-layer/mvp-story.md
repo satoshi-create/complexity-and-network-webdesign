@@ -487,6 +487,8 @@
 
 ## 第7章 水争い勃発・中世層
 
+![chapter-07_conflict-over-water.png](./images/chapter-07_conflict-over-water.png)
+
 祠の奥から感じた鼓動が、
 ぼくを立たせた。
 
