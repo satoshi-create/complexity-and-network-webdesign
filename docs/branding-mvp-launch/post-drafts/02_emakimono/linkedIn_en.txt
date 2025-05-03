@@ -1,0 +1,25 @@
+📜 What if time flowed sideways—on the web?
+
+In Japanese emakimono (picture scrolls), the story doesn't flip pages—it unfolds horizontally.
+
+As you scroll, time expands like a landscape.
+Space and narrative blur.
+
+At CANW, we’re rebuilding this experience digitally with the Emakimono Viewer, an open-source horizontal-scroll interface for cultural archives.
+
+🖼️ The UI is designed to mirror the fluid continuity of traditional emakimono—no hard cuts, no chapters, just flow.
+
+Our current prototypes include:
+
+🐸 Chōjū-jinbutsu-giga (Animal caricatures)
+
+💀 Kusōzu (Nine Stages of a Decaying Corpse)
+
+👉 Read the full story:
+“Scrollable Culture: Reimagining Emakimono in the Browser” →
+
+🧪 GitHub: https://github.com/satoshi-create/emakimono
+
+Contributions welcome—from devs, designers, researchers, and scroll-lovers.
+
+#culturaltech #emakimono #opensource #digitalarchives #networkUI #CANW
