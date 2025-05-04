@@ -740,6 +740,8 @@
 
 ## 第 10 章 蛇崩川〜世田谷公園 縄文層ダイブ
 
+![chapter-10_Jomon-layer-dive](./images/chapter-10_Jomon-layer-dive.png)
+
 ぼくは、
 祐天寺のおばあちゃんの家へ遊びに行く途中だった。
 
@@ -820,6 +822,8 @@
 静かにぼくを見下ろしていた。
 
 ## 第 11 章 蛇神との邂逅
+
+![chapter-11_encounter-with-the-serpent-deity](./images/chapter-11_encounter-with-the-serpent-deity.png)
 
 巨木に絡まる蔦の奥から、
 それは現れた。
