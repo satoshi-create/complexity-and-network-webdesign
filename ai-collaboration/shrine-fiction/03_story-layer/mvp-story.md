@@ -910,6 +910,8 @@
 
 ## 第 12 章 現代・蛇崩川緑道 異変と畏怖
 
+![chapter-12_modern-Jakuzure-riverwalk](./images/chapter-12_modern-Jakuzure-riverwalk.png)
+
 ぼくは、
 祐天寺のおばあちゃんの家に行った帰り道、
 蛇崩川緑道を歩いていた。
@@ -1014,6 +1016,8 @@
 
 ## 第 13 章 祐天寺・祖母の語り
 
+![chapter-13_yutenji-grandmother](./images/chapter-13_yutenji-grandmother.png)
+
 おばあちゃんの家は、
 祐天寺の小さな坂道の途中にあった。
 
@@ -1092,6 +1096,8 @@
 これからも。
 
 ## 第 14 章 最終クロージング・洗練版ドラフト
+
+![chapter-14_final-closing](./images/chapter-14_final-closing.png)
 
 ときどき、
 思い出す。
