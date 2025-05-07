@@ -1,0 +1,22 @@
+🧩 What if we could feel relationships in data—not just manage them?
+
+Spreadsheets and relational databases are great at structure—but poor at intuition.
+
+At CANW, we’re experimenting with converting relational data (RDB, CSV) into living network graphs—to express complexity as ecology, topology, or memory.
+
+👉 From RDB to Network is an open-source toolchain built with Python (pandas + NetworkX).
+
+Current applications:
+
+🍄 Fungi Network: Hyphal structures modeled from CSV
+
+⛩ Shrine Network: Connecting shrines by rivers, deities, and landscapes
+
+🐜 Soil Fauna Network: Mapping interspecies relations underground
+
+This isn’t just data visualization—it’s network-based storytelling.
+
+🧪 GitHub → https://github.com/satoshi-create/from-rdb-to-network
+🌀 Substack → Read the article
+
+#datavisualization #networkscience #culturaltech #digitalarchives #CANW #opensource

@@ -1,0 +1,39 @@
+flowchart TB
+  subgraph 縄文層 起点
+    A1[命の泉 - 縄文湧水森]
+    A2[崩れる流れ - 池尻 魑魅魍魎領域]
+    A3[蛇崩層ダイブ - 蛇神との邂逅]
+  end
+
+  subgraph 中世層
+    B1[守る者たち - 多聞寺原型 毘沙門信仰]
+    B2[流域守護者覚醒 - 水脈と一体化]
+  end
+
+  subgraph 江戸層
+    C1[目黒不動尊の時代 - 流域信仰の拡張]
+  end
+
+  subgraph 現代層 終盤
+    D1[目覚める耳 - 目黒川起点碑と銅像]
+    D2[ひび割れる都市 - 蛇崩緑道の異変]
+    D3[地下のざわめき - 下水道劣化の気配]
+    D4[忘れられた川 - 祐天寺の祖母の語り]
+    D5[流れる子ども - 少年の成長と流域継承]
+  end
+
+  %% 流れ
+  D1 --> A1
+  A1 --> A2
+  A2 --> D2
+  D2 --> B1
+  B1 --> B2
+  B2 --> D3
+  D3 --> A3
+  A3 --> D4
+  D4 --> C1
+  C1 --> D5
+
+  %% スタイル補助
+  classDef flowline stroke:#555,stroke-width:2px;
+  linkStyle 0,1,2,3,4,5,6,7,8 stroke-width:2px,stroke-dasharray:5 5

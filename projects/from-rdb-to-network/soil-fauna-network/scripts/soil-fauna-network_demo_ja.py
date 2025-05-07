@@ -22,7 +22,7 @@ plt.rcParams['axes.unicode_minus'] = False  # マイナス記号も日本語フ�
 
 
 # species.csv と interaction.csv の読み込み
-species_df = pd.read_csv("../datxa/species.csv")
+species_df = pd.read_csv("../data/species.csv")
 interaction_df = pd.read_csv("../data/interaction.csv")
 
 # ネットワーク初期化（有向グラフ）
