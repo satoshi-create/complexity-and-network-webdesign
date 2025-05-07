@@ -24,31 +24,24 @@ In the AI era, our mission is to authentically express complexity through web de
 
 - [🤖 TensorFlow.js Playground](./projects/tensorflowjs-playground/README.md)
   Play with machine learning in the browser and explore interactive AI demos.
-  ブラウザで機械学習を体験し、対話的な AI デモを探索。
 
   - [🎼 Sound Pattern Generator (MVP)](./projects/tensorflowjs-playground/sound-pattern-generator/README.md)
     An interactive experiment to generate simple musical patterns and learn user preferences using TensorFlow.js.
-    シンプルな音パターンを生成し、ユーザーの好みを学習する実験。
 
 - [🌐 From RDB to Network](./projects/from-rdb-to-network/README.md)
   A journey from structured datasets to emergent network visualizations.
-  リレーショナルデータから創発的なネットワーク図への旅。
 
   - [🍄 Fungi Network Visualizer (MVP)](./projects/from-rdb-to-network/fungi-network/README.md)
     A minimal prototype showing how mycelial networks can be visualized from CSV data using Python + NetworkX.
-    CSV + NetworkX による菌糸ネットワークの可視化。
 
   - [⛩ Shrine Network Visualizer (MVP)](./projects/from-rdb-to-network/shrine-network/README.md)
     A cultural network prototype connecting shrines and deities based on shared worship and spatial logic.
-    神社と神々のつながりを空間論理に基づきネットワーク化。
 
   - [🐜 Soil Fauna Network Visualizer (MVP)](./projects/from-rdb-to-network/soil-fauna-network/README.md)
     An ecological network prototype modeling species interactions in the soil using relational CSV and NetworkX.
-    土壌における生物相互作用を CSV + NetworkX で可視化。
 
 - [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)
   A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.
-  横スクロールで楽しむ絵巻物とパノラマ表現。
 
 - [🧪 Experiments](./experiments/README.md)
 
@@ -58,7 +51,22 @@ Creative subprojects that use generative AI tools to support worldbuilding, stor
 
 #### 📘 [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)
 
+<p align="center">
+  <img src="./ai-collaboration/Jomon-Fiction/4_publication-layer/scene_001_magatama/story_001_magatama.png" alt="Jomon Fiction">
+</p>
+
 #### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
+
+<p align="center">
+  <img src="./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png" alt="Tobimushi Manga">
+</p>
+
+#### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
+
+<p align="center">
+  <img src="./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png" alt="Tobimushi Manga">
+</p>
+
 
 ### 🖼️ Media & Visuals
 
@@ -122,9 +130,13 @@ Whether you're into data, design, storytelling, or system thinking, we welcome y
 
 ### 🆕 Propose a New Project
 
+Have an idea you want to grow?  
+
 - ✏️ [Project Proposal Template](./docs/new_project_propesal/new_project_propesal.md)
 - 🌿 [Mycelium Network Mapper Sample](./docs/new_project_propesal/sample/mycelium-network-mapper.md)
 - 💬 Proposals Discussion: [💡 Proposals](https://github.com/satoshi-create/complexity-and-network-webdesign/discussions/categories/-proposals)
+
+Polished or half-formed, all seeds are welcome.  
 
 ---
 
@@ -144,6 +156,8 @@ Thanks to all the contributors! 🌱
 ---
 
 ## 📘 Learn More in the Wiki
+
+Want to explore the philosophy, structure, and ecosystem behind CANW?  
 
 - [What is CANW?](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki/What-is-CANW%3F)
 
