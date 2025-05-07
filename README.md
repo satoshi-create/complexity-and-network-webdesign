@@ -46,25 +46,25 @@ In the AI era, our mission is to authentically express complexity through web de
 - [🧪 Experiments](./experiments/README.md)
 
 ### 🤖 AI Collaboration
-
 Creative subprojects that use generative AI tools to support worldbuilding, storytelling, and visualization.
+This layer bridges technology and creativity, allowing emergent narratives and cultural expressions to flourish.
 
-#### 📘 [Jomon Fiction](./ai-collaboration/jomon-fiction/)
-
+#### 📘 [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)
+An AI-driven reimagining of Japan’s prehistoric Jomon era through networks, geography, and storytelling.
 <p align="center">
   <img src="./ai-collaboration/Jomon-Fiction/4_publication-layer/scene_001_magatama/story_001_magatama.png" alt="Jomon Fiction">
 </p>
 
 #### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
-
+A speculative manga exploring underground ecology and fungal intelligence via AI-human collaboration.
 <p align="center">
   <img src="./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png" alt="Tobimushi Manga">
 </p>
 
-#### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
-
+#### 🦠 [shrine-fiction](./ai-collaboration/shrine-fiction/)
+A myth-inspired narrative project mapping the spiritual networks of shrines using AI-assisted generative tools.
 <p align="center">
-  <img src="./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png" alt="Tobimushi Manga">
+  <img src="./ai-collaboration/shrine-fiction/visual-assets/shrine-fiction_hero.png" alt="shrine-fiction">
 </p>
 
 
