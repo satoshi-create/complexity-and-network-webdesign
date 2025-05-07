@@ -43,13 +43,25 @@ AI 時代にふさわしい、生命的・文化的・創発的な複雑性の�
 
 AI 支援によって縄文時代の世界をネットワーク・地形・物語として再構成するプロジェクト。
 
+<p align="center">
+  <img src="./ai-collaboration/Jomon-Fiction/4_publication-layer/scene_001_magatama/story_001_magatama.png" alt="Jomon Fiction">
+</p>
+
 #### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
 
 菌糸ネットワークと土壌生態を舞台に、AI と人間の協働によって生まれた SF マンガ。
 
+<p align="center">
+  <img src="./ai-collaboration/tobimushi-manga/visual-assets/tobimushi-manga_hero.png" alt="Tobimushi Manga">
+</p>
+
 #### 🛕 [Shrine Fiction](./ai-collaboration/shrine-fiction/)
 
 神社と神話のネットワークを AI 支援で可視化・生成する、霊的ナラティブの実験プロジェクト。
+
+<p align="center">
+  <img src="./ai-collaboration/shrine-fiction/visual-assets/shrine-fiction_hero.png" alt="shrine-fiction">
+</p>
 
 ### 🖼️ メディア＆ビジュアル
 
