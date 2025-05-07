@@ -44,7 +44,7 @@ A cultural network prototype connecting shrines and deities based on shared wors
 An ecological network prototype modeling species interactions in the soil using relational CSV and NetworkX.  
     土壌における生物相互作用を CSV + NetworkX で可視化。
 
-- [📜 Horizontal Scroll Emaki](./projects/horizontal-scroll-emaki/README.md)    
+- [📜 Horizontal Scroll Emaki](https://emakimono.com/)    
  A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.  
   横スクロールで楽しむ絵巻物とパノラマ表現。
 
