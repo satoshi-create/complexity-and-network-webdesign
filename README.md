@@ -7,7 +7,7 @@
 
 📘 Read this in other languages:
 
-- [🇯🇵 日本語](./README.ja.md)
+- [🇯🇵 日本語](./README_ja.md)
 
 CANW is an open-source project exploring "Complexity and Network Webdesign."
 In the AI era, our mission is to authentically express complexity through web design, embracing biological, cultural, and emergent aspects.
@@ -56,7 +56,7 @@ In the AI era, our mission is to authentically express complexity through web de
 
 Creative subprojects that use generative AI tools to support worldbuilding, storytelling, and visualization.
 
-#### 📘 [Jomon Fiction](./ai-collaboration/Jomon-Fiction/)
+#### 📘 [Jomon Fiction](./ai-collaboration/jomon-fiction/)
 
 #### 🦠 [Tobimushi Manga](./ai-collaboration/tobimushi-manga/)
 
