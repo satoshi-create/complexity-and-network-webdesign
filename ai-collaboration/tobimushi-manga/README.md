@@ -2,6 +2,10 @@
 
 **Tobimushi Manga** is a collaborative storytelling project where soil ecology, network science, and generative AI intersect to create a new kind of science fiction manga.
 
+📘 Read this in other languages:
+
+- [🇯🇵 日本語](./README_ja.md)
+
 ---
 
 ## 🌿 Project Overview
