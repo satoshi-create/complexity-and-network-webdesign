@@ -3,6 +3,10 @@
 Shrine-Fiction is an open cultural-scientific storytelling project that reimagines Japan's ancient landscape through the lens of **geography, watersheds, and shrine networks**.
 It is built upon the idea that **shrines are not isolated religious sites**, but cultural nodes rooted in terrain, springs, water systems, and human settlements.
 
+📘 Read this in other languages:
+
+- [🇯🇵 日本語](./README_ja.md)
+
 ## 🌐 Core Concept
 
 > "**Terrain × Watershed × Shrine Placement × Storytelling**"
