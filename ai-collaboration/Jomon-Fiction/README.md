@@ -2,6 +2,10 @@
 
 **Jomon Fiction** is a collaborative storytelling project that blends archaeology, landscape studies, and generative AI to reimagine the lives and land of the Jomon period in ancient Japan.
 
+📘 Read this in other languages:
+
+- [🇯🇵 日本語](./README_ja.md)
+
 ---
 
 ## 🐽 Project Overview
