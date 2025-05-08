@@ -1,4 +1,12 @@
-# CANW - 複雑系とネットワークのウェブデザイン
+<p align="center">
+  <img src="./docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" alt="CANW Logo" width="100"/>
+</p>
+
+<h1 align="center">CANW - 複雑系とネットワークのウェブデザイン</h1>
+
+
+
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
