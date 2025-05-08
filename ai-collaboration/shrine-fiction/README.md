@@ -50,14 +50,15 @@ AI --- ZK
 * **Narrative Fragments**: Mythic or speculative fiction grounded in shrine-geography networks.
 * **Data + Story Fusion**: Network science meets folklore. Reality-based fiction.
 
-## 🚀 First MVP
+## 📚 Story List (MVP)
 
-We are starting from **Meguro River Watershed / Mishuku Shrine**, a real urban shrine deeply rooted in Tokyo’s hidden topography.
-This MVP will include:
+| Scene ID | Title                          | Visual                                                                     |
+|----------|--------------------------------|-----------------------------------------------------------------------------|
+| `001`    | Meguro River Watershed / Mishuku Shrine | ![prologue](ai-collaboration/shrine-fiction/03_story-layer/images/chapter-00-prologue.png) |
 
-* A shrine parts record (ZUKAN)
-* A topographic-hydrologic hypothesis
-* A short fiction fragment
+→ [📖 Read More](ai-collaboration/shrine-fiction/03_story-layer/mvp-story.md)
+
+---
 
 ## 🤝 Contributions Welcome
 
