@@ -5,7 +5,7 @@
 [![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
 ![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
 
-[![#01_canw-intro-draft_substack_feminine.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/hero/%2301_canw-intro-draft/%2305_vital-cultural-emergent_substack.png)](https://github.com/satoshi-create/complexity-and-network-webdesign)
+[![#01_canw-intro-draft_substack_feminine.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/hero/%2301_canw-intro-draft/%2305_vital-cultural-emergent_substack.png)](https://complexity-and-network-webdesign.vercel.app/)
 
 📘 Read this in other languages:
 
