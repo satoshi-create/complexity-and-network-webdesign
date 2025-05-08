@@ -54,7 +54,8 @@ AI --- ZK
 
 | Scene ID | Title                          | Visual                                                                     |
 |----------|--------------------------------|-----------------------------------------------------------------------------|
-| `001`    | Meguro River Watershed / Mishuku Shrine | ![prologue](ai-collaboration/shrine-fiction/03_story-layer/images/chapter-00-prologue.png) |
+| `001`    | Meguro River Watershed / Mishuku Shrine | ![prologue](./03_story-layer/images/chapter-00-prologue.png) |
+
 
 → [📖 Read More](ai-collaboration/shrine-fiction/03_story-layer/mvp-story.md)
 

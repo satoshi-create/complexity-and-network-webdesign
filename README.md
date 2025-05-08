@@ -40,7 +40,7 @@ In the AI era, our mission is to authentically express complexity through web de
   - [🐜 Soil Fauna Network Visualizer (MVP)](./projects/from-rdb-to-network/soil-fauna-network/README.md)
     An ecological network prototype modeling species interactions in the soil using relational CSV and NetworkX.
 
-- [📜 Horizontal Scroll Emaki](https://emakimono.com/)
+- [📜 Horizontal Scroll Emaki](https://github.com/satoshi-create/emakimono-next)
   A web experience for enjoying picture scrolls and panoramic storytelling through side-scrolling UI.
 
 - [🧪 Experiments](./experiments/README.md)

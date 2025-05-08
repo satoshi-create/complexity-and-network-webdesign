@@ -55,7 +55,7 @@ AI --- ZK
 
 | シーン ID | タイトル                | ビジュアル                                                                                 |
 | --------- | ----------------------- | ------------------------------------------------------------------------------------------ |
-| `001`     | 目黒川流域／三宿神社 編 | ![prologue](ai-collaboration/shrine-fiction/03_story-layer/images/chapter-00-prologue.png) |
+| `001`     | 目黒川流域／三宿神社 編 | ![prologue](./03_story-layer/images/chapter-00-prologue.png) |
 
 → [📖 続きを読む](ai-collaboration/shrine-fiction/03_story-layer/mvp-story.md)
 
