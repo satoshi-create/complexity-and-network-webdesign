@@ -3,6 +3,10 @@
 This project visualizes shrine-deity relationships as a cultural network rooted in geography and watershed logic.  
 このプロジェクトは、神社と神々の関係を地形や流域の視点から結びなおし、文化的ネットワークとして可視化することを目的とします。
 
+📘 他の言語で読む:
+
+- [🇺🇸 English](./README_ja.md)
+
 
 ---
 
