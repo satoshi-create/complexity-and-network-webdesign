@@ -4,9 +4,7 @@
 
 <h1 align="center">CANW (Complexity and Network Webdesign)</h1>
 
-
-
-
+---
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
@@ -131,6 +129,17 @@ mindmap
 
 ---
 
+## 🎨 Alternative Logos
+
+Here are other variants of the CANW logo:
+
+<p float="left">
+  <img src="./docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" width="100"/>
+  <img src="./docs/branding-mvp-launch/images/logos/logo_lifelike-emergent.png" width="100"/>
+  <img src="./docs/branding-mvp-launch/images/logos/logo_minimal.png" width="100"/>
+</p>
+
+---
 ## 🌟 Contributors Welcome!
 
 CANW is just beginning — full of possibilities, creative room, and emergent collaboration.
