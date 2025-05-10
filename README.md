@@ -103,6 +103,7 @@ mindmap
     AI Collaboration
       Jomon-Fiction
       Tobimushi-Manga
+      Shrine-Fiction
     experiments
     Concepts
       Complexity
