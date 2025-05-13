@@ -2,6 +2,10 @@
 
 **An open-source project that critiques and narrativizes reverse-nudge UX through characters and satire.**
 
+📘 Read this in other languages:
+
+- [🇯🇵 日本語](./README_ja.md)
+
 ---
 
 ## 🎯 Project Overview
