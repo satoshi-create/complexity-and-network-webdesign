@@ -1,0 +1,43 @@
+🧭 What happens when we stop simplifying complexity?
+
+At CANW (Complexity And Network Webdesign), we’re designing systems that don’t flatten or abstract, but instead express complexity as it is—through structure, landscape, and story.
+
+🌊 What if shrines and ruins formed edges that narrate the river basin as a living network?
+📜 What if horizontal scrolls let us feel time as nonlinear flow?
+🍄 What if fungal and soil fauna networks could be visualized and explored?
+🤖 What if AI became a collaborator in telling complex, emergent stories?
+
+CANW is an evolving ecosystem of open-source tools and story-driven experiments, ranging from shrine networks to AI co-authored fiction.
+
+👉 We just published our first article:
+“What is CANW? — Expressing Complexity Without Reduction”
+
+🔗 note → https://note.com/enjoy_emakimono/n/n940e49019336
+🧪 GitHub (open to contributors): https://github.com/satoshi-create/complexity-and-network-webdesign
+
+Let’s imagine, build, and walk nonlinear systems together.
+
+
+🧭 複雑なものを、単純化せずにそのまま表現したら何が起きる？
+
+CANW（Complexity And Network Webdesign）は、
+構造・風景・物語を通じて「複雑さそのもの」を立ち上げる試みです。
+抽象化や単純化ではなく、関係性そのものを記述し、編み直す。
+
+🌊 神社や遺構が、流域を語るネットワークの「縁」となったら？
+📜 絵巻物が、非線形な時間の流れを感じさせてくれたら？
+🍄 菌糸や土壌動物のネットワークを、可視化して探検できたら？
+🤖 生成AIが、複雑で予測不能な物語を共に紡ぐ相棒になったら？
+
+CANWは、神社ネットワークからAI共作小説まで、
+ストーリー駆動で進化するOSSのエコシステムです。
+
+👉 初回の記事を公開しました：
+「CANWとは何か？— 複雑なものを、単純化せずにそのまま表現する」
+
+🔗 noteで読む → https://note.com/enjoy_emakimono/n/n940e49019336
+🧪 GitHub（貢献歓迎） → https://github.com/satoshi-create/complexity-and-network-webdesign
+
+ともに、非線形なシステムを想像し、つくり、歩んでいきましょう。
+
+#オープンソース #ネットワークサイエンス #複雑系 #デジタルヒューマニティーズ #文化テック #生成AI #CANW

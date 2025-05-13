@@ -1,13 +1,16 @@
-「複雑なものを、単純化せずにそのまま表現できたら？」
+🧩「複雑なものを、単純化せずにそのまま表現できたら？」
 
-流域ネットワークとしての神社。
-非線形な時間を流れる絵巻。
-菌類と土壌の生態系。
-そして、AIと共に紡ぐ神話。
+⛩️ 流域ネットワークとしての神社
+📜 非線形な時間を流れる絵巻
+🍄 菌類と土壌の生態系
+🤖 そして、AIと共に紡ぐ神話
 
 それらを束ねた構想を、CANWというプロジェクトにまとめました。
 
-🔗 Substackで最初の構想記事を公開中：
-https://your-substack-link
+📝 noteで最初の構想記事を公開中：
+https://note.com/enjoy_emakimono/n/n940e49019336
+
+💻 GitHub：
+https://github.com/satoshi-create/complexity-and-network-webdesign
 
 #複雑系 #カルチャルテック #CANW
