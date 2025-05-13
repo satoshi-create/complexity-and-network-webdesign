@@ -6,6 +6,10 @@ This document outlines the narrative setting and structural lens of the `reverse
 
 Characters, storylines, and diagrams are all rooted in this shared meta-structure.
 
+📘 Read this in other languages:
+
+- [🇯🇵 日本語](./world_ja.md)
+
 ---
 
 ## 1. Setting: Institutional Terrain and UX Labyrinths
