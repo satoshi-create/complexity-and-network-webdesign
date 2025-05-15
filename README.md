@@ -2,6 +2,8 @@
   <img src="./docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" alt="CANW Logo" width="100"/>
 </p>
 
+[![zine](./docs/zines/jomon-fiction_cover_zine.pdf)](./docs/zines/jomon-fiction_cover_zine.pdf)
+
 <h1 align="center">CANW (Complexity and Network Webdesign)</h1>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
