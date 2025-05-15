@@ -8,6 +8,9 @@
 
 ---
 
+
+[![zine](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/docs/zines/jomon-fiction_cover_zine.png)](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/docs/zines/jomon-fiction_cover_zine.png)
+
 ## 🐽 Project Overview
 
 Jomon Fiction is envisioned as a subproject of [CANW: Complexity and Network Webdesign](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main).  
