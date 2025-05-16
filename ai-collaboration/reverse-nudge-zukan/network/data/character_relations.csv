@@ -1,0 +1,8 @@
+﻿source_id,target_id,relation_type,description
+C001,C002,rival,ゴジュエモンとミャクミャケは制度をめぐって対立している
+C003,C004,duo,マイナセツコたんとフォーム女子は制度UXを象徴するデュオ
+C005,C001,neutralizer,セント坊はゴジュエモンの構造爆破を中和する存在
+C005,C003,healer,セント坊はセツコたんの制度疲労を癒す
+C005,C004,observer,セント坊はフォーム女子のUX地獄をただ見守る
+C002,C003,sympathizer,ミャクミャケはセツコたんに制度的共感を示す
+C002,C004,enabler,ミャクミャケはフォーム女子の制度的存在を正当化する
