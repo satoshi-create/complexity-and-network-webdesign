@@ -12,14 +12,43 @@ At CANW, we’re rebuilding this experience digitally with the Emakimono Viewer,
 Our current prototypes include:
 
 🐸 Chōjū-jinbutsu-giga (Animal caricatures)
+https://emakimono.com/ja/Ch%C5%8Dj%C5%AB-jinbutsu-giga_first
 
 💀 Kusōzu (Nine Stages of a Decaying Corpse)
+https://emakimono.com/ja/kusouzumaki
 
-👉 Read the full story:
-“Scrollable Culture: Reimagining Emakimono in the Browser” →
-
-🧪 GitHub: https://github.com/satoshi-create/emakimono
+🔗 note → https://note.com/enjoy_emakimono/n/n940e49019336
+🧪 GitHub: https://github.com/satoshi-create/emakimono-next
 
 Contributions welcome—from devs, designers, researchers, and scroll-lovers.
 
 #culturaltech #emakimono #opensource #digitalarchives #networkUI #CANW
+
+
+📜 もし、時間がウェブ上で“横に流れる”としたら？
+
+日本の絵巻物（Emakimono）では、物語はページをめくるのではなく、横に展開していきます。
+
+スクロールするたびに、時間は風景のように広がり、
+空間とストーリーの境界は曖昧になります。
+
+CANWでは、この体験をデジタルで再構築するため、
+Emakimono Viewerを開発しています。
+これは、文化的アーカイブのためのオープンソースな横スクロール・インターフェースです。
+
+🖼️ UIは、伝統的な絵巻物の“連続する流れ”を模したデザインです。
+チャプターもカットもありません。ただ、流れだけがある。
+
+現在のプロトタイプには、以下の作品を実装しています：
+
+🐸『鳥獣人物戯画』（動物風刺絵巻）
+https://emakimono.com/ja/Ch%C5%8Dj%C5%AB-jinbutsu-giga_first
+💀『九相図』（死体の変化を描いた九段の絵巻）
+https://emakimono.com/ja/kusouzumaki
+
+🔗 note記事 → https://note.com/enjoy_emakimono/n/n940e49019336
+🧪 GitHub → https://github.com/satoshi-create/emakimono-next
+
+開発者・デザイナー・研究者・絵巻愛好家など、どなたでもご参加歓迎です。
+
+#文化テック #絵巻物 #オープンソース #デジタルアーカイブ #ネットワークUI #CANW
