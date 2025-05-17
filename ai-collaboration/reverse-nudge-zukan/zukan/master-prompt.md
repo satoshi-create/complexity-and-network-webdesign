@@ -48,11 +48,29 @@ The final image should resemble a page from a surreal satirical handbook, with b
 
 ---
 
-## 🔧 使用例テンプレート
+## 🔧 使用例テンプレート（キャラ単体）
 
 ```text
 A symbolic character representing [role], with [body/clothing traits], expressing [emotion/attitude], standing in/around [background setting], illustrated in a [visual style] with muted colors and a paper-texture poster feel.
 ```
+
+---
+
+## 🎭 寸劇画像生成プロンプトテンプレート
+
+キャラクター同士の関係性を活かした寸劇シーンの生成に使用。
+
+```text
+A hand-drawn retro-style scene showing [Character A] and [Character B] interacting in a symbolic way based on their relationship: [relation type].
+[Describe setting], [describe pose or action], [emotion], [surrounding UI/visual metaphors].
+Rendered in muted tones with soft lines and a Showa-era poster texture.
+```
+
+例：
+
+- ゴジュエモン × ミャクミャケ（対立）：「爆破ビーム vs 水状吸収」
+- セント坊 × フォーム女子（見守り）：「静かなる観察者とエラー地獄」
+- セツコたん × フォーム女子（相棒）：「承認と送信のデュオ」
 
 ---
 
@@ -65,4 +83,4 @@ A symbolic character representing [role], with [body/clothing traits], expressin
 
 ---
 
-今後、各キャラプロンプトはこのテンプレートに基づいて個別設計され、ZINE や Web 掲載へと展開されていきます。
+今後、各キャラプロンプトや寸劇プロンプトはこのテンプレートに基づいて設計され、ZINE や Web 掲載へと展開されていきます。
