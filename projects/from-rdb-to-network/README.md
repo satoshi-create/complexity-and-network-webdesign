@@ -13,7 +13,7 @@
 
 📘 Read in other languages:
 
-* [🇯🇵 日本語](./README.ja.md)
+* [🇯🇵 日本語](./README_ja.md)
 
 > From rigid structures to living systems — a journey in rethinking data.
 > 
