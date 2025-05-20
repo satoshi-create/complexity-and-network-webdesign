@@ -66,4 +66,20 @@ From RDB to Network は、その最初の MVP。
 今後は CANW 全体のネットワークアーキテクチャに接続し、
 流域・菌類・神社・生態系・物語など、**複数の分野を横断して関係性を可視化していく予定**です。
 
+### 関連リンク
+
+- From RDB to Network（GitHub）
+
+- https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/projects/from-rdb-to-network
+
+- GitHub（CANW 全体リポジトリ）
+
+- https://github.com/satoshi-create/complexity-and-network-webdesign
+
+- LinkedIn（海外向けの発信）
+
+- https://www.linkedin.com/in/satoprofile/
+
 次回は、AI Collaboration と生成的フィクションの構築について紹介します。
+
+📌 プロジェクト全体はこちらから https://github.com/satoshi-create/complexity-and-network-webdesign
