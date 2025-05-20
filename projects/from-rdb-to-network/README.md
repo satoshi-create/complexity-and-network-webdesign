@@ -78,9 +78,19 @@ graph TD
     P3[Soil Fauna Network]
   end
 
+  subgraph Derivative Projects
+    M1[Tobimushi Manga]
+    M2[Jomon Fiction / Shrine Fiction]
+  end
+
   B --> P1
   B --> P2
   B --> P3
+
+  P1 --> M1
+  P3 --> M1
+  P2 --> M2
+
 ```
 
 ---
