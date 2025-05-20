@@ -9,7 +9,7 @@
 [![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
 ![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
 
-[![#03_evolving-network-mvp_faminine_note.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/03_rdb-to-network/%2303_evolving-network-mvp_faminine_note.png)]()
+[![#03_evolving-network-mvp_faminine_note.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/03_rdb-to-network/%2303_evolving-network-mvp_faminine_note_en.png)]()
 
 📘 Read in other languages:
 
