@@ -37,13 +37,15 @@ The transformation process itself becomes a story — a shift from static record
 
 Within the CANW ecosystem, we are developing use-case prototypes such as:
 
-* 🍄 **Fungi Network**
+* [🍄 **Fungi Network**](./fungi-network)
 
   * Modeling fungal hyphal structures from CSV data and visualizing their network dynamics
-* ⚩ **Shrine Network**
+
+* [ ⚩ **Shrine Network**](./shrine-network)
 
   * Mapping shrines worshiping the same deity and visualizing their geographic and relational networks
-* 🐜 **Soil Fauna Network**
+
+* [ 🐜 **Soil Fauna Network**](./soil-fauna-network)
 
   * Representing co-occurrence and predator-prey relations among soil organisms as ecological graphs
 
