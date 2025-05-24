@@ -90,3 +90,21 @@ CANW は、完結したプロダクトではありません。
 - GitHub、note、Threads などで活動の記録と参加導線を開いています。
 
 次回は、プロジェクトの中でもキーとなる「絵巻的 UI」やネットワークの設計思想を掘り下げていきます。
+
+### 関連リンク
+
+- GitHub（CANW 全体リポジトリ）
+
+- https://github.com/satoshi-create/complexity-and-network-webdesign
+
+- LinkedIn（海外向けの発信）
+
+- https://www.linkedin.com/in/satoprofile/
+
+- Emakimono Viewer（絵巻ビューアー）
+
+- https://emakimono.com/
+
+次回は、Emakimono Viewer を CANW の中でどう位置づけているかをご紹介します。
+
+📌 プロジェクト全体はこちらから https://github.com/satoshi-create/complexity-and-network-webdesign

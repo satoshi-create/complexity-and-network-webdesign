@@ -93,4 +93,24 @@ Emakimono Viewer は、単なるスクロールビューワーではありませ
 時間が流れ、空間がにじみ、関係がゆるやかに浮かび上がる。そんな可視化を可能にする UI。
 それは、未来の文化アーカイブのための、新しい絵巻なのです。
 
+### 関連リンク
+
+- GitHub（CANW 全体リポジトリ）
+
+- https://github.com/satoshi-create/complexity-and-network-webdesign
+
+- Emakimono Viewer（絵巻ビューアー）
+
+- https://emakimono.com/
+
+- GitHub（Emakimono Viewer）
+
+- https://github.com/satoshi-create/emakimono-next
+
+- GitHub（Emaki Viewer Wiki）
+
+- https://github.com/satoshi-create/emakimono-next/wiki
+
 次回は、「From RDB to Network」によるデータの関係化について紹介します。
+
+📌 プロジェクト全体はこちらから https://github.com/satoshi-create/complexity-and-network-webdesign

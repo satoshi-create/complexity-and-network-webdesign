@@ -8,6 +8,13 @@
 
 ---
 
+## 📘 ZINE: CANWとは何か？
+
+[![zine](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/zines/jomon-fiction_cover_zine.png)](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/zines/jomon-fiction_zine.pdf)
+
+
+> ZINE全文はこちら（PDF）： [CANW ZINE PDFを読む](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/zines/jomon-fiction_zine.pdf)
+
 ## 🐽 Project Overview
 
 Jomon Fiction is envisioned as a subproject of [CANW: Complexity and Network Webdesign](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main).  
