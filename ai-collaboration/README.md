@@ -1,7 +1,29 @@
-# 🤝 AI Collaboration / AI 協働層
+<p align="center">
+  <img src="https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" alt="CANW Logo" width="100"/>
+</p>
 
-This folder collects AI-generated ideas, prototypes, and automation tools that support co-creation across open storytelling projects.
+<h1 align="center">🤝 AI Collaboration</h1>
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
+[![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
+![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
+
+[![#04_ai-collaboration_note.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/04_ai-collabration/#04_ai-collaboration_note.png)]()
+
+
+📘 他の言語で読む:
+
+- [🇺🇸 English](./README.md)
+
+> This folder collects AI-generated ideas, prototypes, and automation tools that support co-creation across open storytelling projects.
 このフォルダは、オープンな物語創作プロジェクトにおいて、生成 AI によって支援されたアイデア・プロトタイプ・自動化ツールを集約したものです。
+
+
+このプロジェクトは、CANW（Complexity And Network Webdesign）構想の一環として展開されています。
+全体の背景思想やネットワーク的アプローチについては、[CANW ルートディレクトリの README](https://github.com/satoshi-create/complexity-and-network-webdesign) をご参照ください。
+
 
 ---
 
