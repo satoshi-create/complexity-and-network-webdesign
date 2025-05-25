@@ -9,11 +9,11 @@
 [![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
 ![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
 
-[![#04\_ai-collaboration\_note.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/04_ai-collabration/#04_ai-collaboration_substack.png)]()
+[![#04_ai-collaboration_note_en.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/04_ai-collabration/%2304_ai-collaboration_note_en.png)]()
 
 📘 Read in other languages:
 
-* [🇯🇵 Japanese](../README_ja.md)
+* [🇯🇵 Japanese](./README_ja.md)
 
 > Co-creating living stories with AI.
 > Not just as a generative tool, but as an additional layer to reweave a complex world.
@@ -65,14 +65,15 @@ We currently leverage the following tools and OSS technologies:
 
 ```mermaid
 graph TD
-  A[Project Concept] --> B[AI-Generated Prototypes (Text / Visual)]
+  A[Project Concept] --> B[AI-Generated Prototypes_Text / Visual]
   B --> C[Review & Regeneration]
   C --> D[Frontend Implementation / Storytelling]
   D --> E[Connection to CANW Overall Architecture]
 
   subgraph Emergent Projects
     P1[Jomon Fiction]
-    P2[Tobimushi Manga]
+    P2[Shrine Fiction]
+    P3[Tobimushi Manga]
   end
 
   B --> P1
