@@ -18,9 +18,9 @@ This is a submodule of the CANW (Complexity and Network Webdesign) initiative, w
 
 ## 🗺 Worldbuilding Basics
 
-* Setting: Institutional spaces in contemporary Japan (city halls, hospitals, smartphones, job hunting, etc.)
-* Characters: Reverse-nudge monsters like "PDF Taro", "My-Name Setsuko-tan", "Form Girl"
-* Narrators: Gojuemon (the structure-destroying kaiju) and Myakumyake (the ambivalent soft monster)
+- Setting: Institutional spaces in contemporary Japan (city halls, hospitals, smartphones, job hunting, etc.)
+- Characters: Reverse-nudge monsters like "PDF Taro", "My-Name Setsuko-tan", "Form Girl"
+- Narrators: Gojuemon (the structure-destroying kaiju) and Myakumyake (the ambivalent soft monster)
 
 ---
 
@@ -42,10 +42,10 @@ reverse-nudge-zukan/
 
 ## 🔁 Contribution Guidelines
 
-* Character ideas: Add to `zukan/characters.csv` and submit via PR or issue
-* Script contributions: Write scenes in `narrative/` using Markdown
-* Visualization tools: Use Mermaid or Python via `network/`
-* Templates are available in the GitHub Issue section
+- Character ideas: Add to `zukan/characters.csv` and submit via PR or issue
+- Script contributions: Write scenes in `narrative/` using Markdown
+- Visualization tools: Use Mermaid or Python via `network/`
+- Templates are available in the GitHub Issue section
 
 ---
 
@@ -64,5 +64,5 @@ This project is released under the MIT License. You're free to adapt it for educ
 
 ## 🔗 Related Links (Coming Soon)
 
-* [CANW Project](https://github.com/satoshi-create/complexity-and-network-webde)
-* [note article (JP)](https://note.com/enjoy_emakimono)
+- [CANW Project](https://github.com/satoshi-create/complexity-and-network-webde)
+- [note article (JP)](https://note.com/enjoy_emakimono)
