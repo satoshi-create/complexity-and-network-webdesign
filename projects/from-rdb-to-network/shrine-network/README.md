@@ -134,9 +134,15 @@ shrine-network/
 
 ## 🧠 Future Ideas
 
-- GeoJSON & GSI for interactive mapping
-- Extend to temples and ruins
-- D3.js or Streamlit for tourism-focused apps
+## What You Can Do with Python (Network & Analysis)
+
+| Difficulty | Theme                    | Python Tools                               | What You Can Do                                                                      | Expected Outcomes of Visualization & Analysis                                         |
+|------------|-------------------------|-------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| 🟢 Low     | Spatial Data Management | GeoPandas, Shapely, pyproj                | - Manage shrine data (lat/lon) as GIS data<br>- Overlay with terrain and river layers | - Link shrine location characteristics with terrain layers to **test spatial hypotheses** |
+| 🟢 Low     | Network Science         | NetworkX, pandas                          | - Analyze centrality and detect communities in deity networks<br>- Visualize shrine interconnections | - Visualize the structure of deity networks to **discover hidden relationships**          |
+| 🟢 Low     | Visualization & Mapping | Folium, Plotly, Matplotlib, Kepler.gl     | - Visualize shrine networks on interactive maps<br>- Popups for deities and shrine legends | - Enable intuitive understanding of **spatial trends in shrine and deity networks**       |
+| 🔴 High    | Terrain Data Analysis   | Rasterio, GDAL                            | - Analyze elevation data (DEM) and shading<br>- Visualize shrine relationships to DEM data | - Quantify the correlation of terrain and shrine placement to **reveal geographic contexts** |
+| 🔴 High    | Spatial Statistics      | scipy, PySAL, geopandas                   | - Analyze spatial autocorrelation (e.g., Moran’s I)<br>- Conduct statistical analysis of distances and clustering | - Quantify spatial biases to **statistically verify cultural and religious patterns**     |
 
 ---
 
