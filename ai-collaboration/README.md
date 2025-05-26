@@ -1,33 +1,111 @@
-# 🤝 AI Collaboration / AI 協働層
+<p align="center">
+  <img src="https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" alt="CANW Logo" width="100"/>
+</p>
 
-This folder collects AI-generated ideas, prototypes, and automation tools that support co-creation across open storytelling projects.
-このフォルダは、オープンな物語創作プロジェクトにおいて、生成 AI によって支援されたアイデア・プロトタイプ・自動化ツールを集約したものです。
+<h1 align="center">🤝 AI Collaboration</h1>
 
----
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
+[![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
+![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
 
-## 🧪 Current Projects / 現在進行中のプロジェクト
+[![#04_ai-collaboration_note_en.png](https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/sns/04_ai-collabration/%2304_ai-collaboration_note_en.png)]()
 
-- `Jomon-Fiction/`: A creative subproject of CANW, exploring the Jomon world through AI-assisted storytelling, network thinking, and landscape-based design.
-  **縄文フィクション**：AI の物語生成支援・地形思考・ネットワーク視点を通じて縄文世界を再構成するプロジェクト。
+📘 Read in other languages:
 
-- `tobimushi-manga/`: A sci-fi manga about soil ecology and mycorrhizal networks, developed through a layered collaboration loop between humans and AI.
-  **トビムシマンガ**：土壌生態系・菌糸ネットワークを舞台に、AI と人間の多層的協働ループから生まれたサイエンスフィクション漫画。
+* [🇯🇵 Japanese](./README_ja.md)
 
----
+> Co-creating living stories with AI.
+> Not just as a generative tool, but as an additional layer to reweave a complex world.
 
-## 🤖 AI Tools Used / 使用ツール例
-
-- **ChatGPT / GPT-4**: Scene writing, scientific summary, translation
-  シーン草稿、科学的要約、翻訳など
-- **DALL·E / Midjourney**: Visuals of characters, ecosystems, symbolic moments
-  キャラクター・環境・象徴的瞬間のビジュアル生成
-- **Python + Pillow / Mermaid**: Speech bubble layout, diagram generation
-  吹き出し統合、構造図生成の支援
+This project is part of the CANW (Complexity And Network Webdesign) initiative.
+For the overall philosophy and network-oriented approach, please refer to the [CANW root README](https://github.com/satoshi-create/complexity-and-network-webdesign).
 
 ---
 
-## 🌱 Join the Loop / 協働ループへようこそ！
+## 🔄 Overview: AI Collaboration
 
-AI-Collaboration is designed to be accessible to both coders and non-coders. You can participate from any creative or technical layer.
+**AI Collaboration** is a collaborative project that leverages generative AI and automation tools to weave creative networks in storytelling, culture, and science.
+AI responds to human insights and questions,
+and recursively weaves together the layers of **prototypes, stories, dialogues, and visualization** —
+this collaborative process itself is the “story” of this project.
 
-AI 協働層は、コーダー／ノンコーダー問わず、誰でも参加できる柔軟な創作基盤です。構想・調査・設計・可視化・公開、どの層からでも歓迎します！
+---
+
+## 🧪 Ongoing Sub-Themes
+
+Within CANW, we are currently developing several thematic explorations:
+
+* 📘 **Jomon Fiction**
+
+  * Reconstructing the Jomon world through AI-generated storytelling, landscape thinking, and network analysis.
+
+* ⛩ **Shrine Fiction**
+
+  * Creating myth-inspired fiction based on shrine distribution and watershed networks.
+
+* 🦠 **Tobimushi Manga**
+
+  * A sci-fi manga set in the soil ecology and mycorrhizal networks, born from collaborative loops between AI and human creators.
+
+---
+
+## 🤖 Tools and Technologies
+
+We currently leverage the following tools and OSS technologies:
+
+* **ChatGPT / GPT-4**: Scenario drafting, idea expansion, translation assistance
+* **DALL·E / Midjourney**: Visual generation for characters, environments, and key scenes
+* **Python + Pillow / Mermaid**: Automating diagram generation and speech bubble layouts
+* **Next.js / React**: Frontend implementation for visual storytelling
+
+---
+
+## 🌐 Ecosystem Structure (Mermaid)
+
+```mermaid
+graph TD
+  A[Project Concept] --> B[AI-Generated Prototypes_Text / Visual]
+  B --> C[Review & Regeneration]
+  C --> D[Frontend Implementation / Storytelling]
+  D --> E[Connection to CANW Overall Architecture]
+
+  subgraph Emergent Projects
+    P1[Jomon Fiction]
+    P2[Shrine Fiction]
+    P3[Tobimushi Manga]
+  end
+
+  B --> P1
+  B --> P2
+  P1 --> D
+  P2 --> D
+```
+
+---
+
+## 🌱 Join the Loop
+
+AI Collaboration is an open framework welcoming contributions from both coders and non-coders alike.
+**Conceptualization, research, writing, design, visualization, and dissemination** — participation is welcome from any layer!
+
+---
+
+## 📄 License
+
+This project is released under the MIT License.
+See [LICENSE](./LICENSE) for details.
+
+---
+
+## 🔗 Related Links
+
+* AI Collaboration (GitHub): [https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/projects/ai-collabration](https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/projects/ai-collabration)
+* CANW Overall Repository: [https://github.com/satoshi-create/complexity-and-network-webdesign](https://github.com/satoshi-create/complexity-and-network-webdesign)
+* LinkedIn (international outreach): [https://www.linkedin.com/in/satoprofile/](https://www.linkedin.com/in/satoprofile/)
+
+---
+
+It’s not just about generating.
+It’s about questioning, reweaving, and co-creating as a living network.
+Welcome to the “AI Story.”

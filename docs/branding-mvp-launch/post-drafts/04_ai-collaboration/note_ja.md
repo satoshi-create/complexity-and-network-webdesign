@@ -51,6 +51,19 @@ AI をツールとして使うのではなく、**AI を創作の相棒（コラ
 
 ---
 
+### 🌐 オープンサイエンスの試み
+
+CANW では、AI 生成物を単なる“成果物”として扱うのではなく、
+オープンサイエンスの精神でプロセスや実験記録そのものを共有しています。
+
+生成物だけでなく、生成までのプロンプト例・編集過程を公開
+
+GitHub でプロジェクトの技術基盤も開放し、誰でも参照・参加可能に
+
+物語・アート・研究の交差点として、コントリビューションの場を開いている
+
+この姿勢によって、AI との創発的な協働を文化的・社会的な実験として位置づけています。
+
 ### 🌐 AI Collaboration の意義：異なる知性と共に考える
 
 CANW では、AI を「労働力」としてではなく、**異なる知性（non-human intelligence）**として位置づけています。
@@ -78,3 +91,21 @@ AI Collaboration レイヤーは、技術だけでなく**想像力・観察力�
 ぜひ一緒に、「人間と AI が育てる物語」の世界をひらいていきましょう。
 
 次回は、CANW 全体に通底する思想：非線形・複雑系・ネットワーク美学についてご紹介します。
+
+### 関連リンク
+
+AI Collabration（GitHub）
+
+https://github.com/satoshi-create/complexity-and-network-webdesign/tree/main/ai-collaboration
+
+GitHub（CANW 全体リポジトリ）
+
+https://github.com/satoshi-create/complexity-and-network-webdesign
+
+LinkedIn（海外向けの発信）
+
+https://www.linkedin.com/in/satoprofile/
+
+次回は、CANW 全体に通底する思想：非線形・複雑系・ネットワーク美学についてご紹介します。
+
+📌 プロジェクト全体はこちらから https://github.com/satoshi-create/complexity-and-network-webdesign
