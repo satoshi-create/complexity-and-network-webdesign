@@ -1,14 +1,13 @@
----
-
-## 🇯🇵 日本語
-
-```markdown
 # 🗑️ machida-gomi-structure
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
 [![Part of CivicCommonsLab](https://img.shields.io/badge/CivicCommonsLab-ecosystem-blueviolet)](../)
 
 > ごみ分別データを「生活コモンズ」として再構築するためのプロトタイプ。
+
+📘 他言語版:
+
+* [🇺🇸 English](./README.md)
 
 ---
 
