@@ -1,8 +1,3 @@
----
-
-## 🇯🇵 日本語
-
-```markdown
 <p align="center">
   <img src="https://github.com/satoshi-create/complexity-and-network-webdesign/blob/main/docs/branding-mvp-launch/images/logos/logo_cultural-emergent.png" alt="CANWロゴ" width="100"/>
 </p>
@@ -66,7 +61,7 @@ OCR でテキストを抽出し、カテゴリ分類・正規化して CSV/JSON 
 graph TD
   A[行政PDFデータ] --> B[OCR・テキスト整形]
   B --> C[カテゴリ分類・構造化]
-  C --> D[可視化 (Mermaid.js, NetworkX)]
+  C --> D[可視化_Mermaid.js, NetworkX]
   D --> E[リフレクション・UXストーリー化]
   E --> F[CANW全体アーキテクチャとの接続]
 

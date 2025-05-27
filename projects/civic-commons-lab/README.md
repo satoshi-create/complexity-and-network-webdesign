@@ -60,7 +60,7 @@ We emphasize:
 graph TD
   A[Local Government PDFs] --> B[OCR & Text Normalization]
   B --> C[Categorization & Structure]
-  C --> D[Visualization (Mermaid.js, NetworkX)]
+  C --> D[Visualization_Mermaid.js, NetworkX]
   D --> E[Reflection & UX Storytelling]
   E --> F[Integration with CANW]
 
