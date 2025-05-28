@@ -14,7 +14,13 @@ images = convert_from_path(PDF_PATH, dpi=300)
 
 # ページごとにOCR実行
 for i, img in enumerate(images):
-    text = pytesseract.image_to_string(img, lang='jpn')
+
+
+    custom_config = r'--psm 6'  # レイアウト認識モードの調整
+    text = pytesseract.image_to_string(img, lang='jpn', config=custom_config)
+
+    # text = pytesseract.image_to_string(img, lang='jpn')
+
     output_path = os.path.join(OUTPUT_DIR, f'page_{i+1}.txt')
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(text)
