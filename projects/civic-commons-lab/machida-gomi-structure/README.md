@@ -3,6 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
 [![Part of CivicCommonsLab](https://img.shields.io/badge/CivicCommonsLab-ecosystem-blueviolet)](../)
 
+📘 Read in other languages:
+
+- [🇯🇵 Japanese](./README_ja.md)
+
 > A prototype for rethinking waste sorting data as living commons.
 
 ---
