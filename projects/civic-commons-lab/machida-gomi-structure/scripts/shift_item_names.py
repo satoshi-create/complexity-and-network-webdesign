@@ -1,7 +1,7 @@
 import pandas as pd  # pandasをインポート（CSV操作・表処理のため）
 
 # CSVファイルの読み込み
-file_path = "../data/csv/table_1_new.csv"  # 読み込むCSVファイルのパス（必要に応じて書き換え）
+file_path = "../data/csv/table_all.csv"  # 読み込むCSVファイルのパス（必要に応じて書き換え）
 df = pd.read_csv(file_path, encoding="utf-8", header=None)  # ヘッダ行がないCSVなので header=None
 
 # カテゴリ列（例: インデックス4）で「拠点回収」と書かれた行を検出する
