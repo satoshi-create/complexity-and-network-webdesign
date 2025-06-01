@@ -36,32 +36,29 @@ In CANW, we treat these not as lines, but as **bundles** of thought and form.
 
 ---
 
-### 🌀 From MVP to Future Phases: Toward a UI/UX of Complexity
+## 🌿 The CANW MVP: Just a Starting Point
 
-The CANW MVP is only a beginning.
-Future directions include:
-
-#### 1. **UI/UX Design for Complex Systems**
-
-- Interfaces that let users _feel_ complexity, like spring maps or fungal networks
-- Nonlinear zines and web content that mimic ecosystemic reading
-
-#### 2. **Translating Field Sensing into Digital Form**
-
-- Web experiences inspired by terrains: terraces, shrines, shell mounds
-- UIs that make you want to _walk a landscape_, or _continue a memory_
-
-#### 3. **Working Across Borders**
-
-- OSS-based multilingual workflows and global zines
-- Collaborative modes that blend research, observation, and creativity
-
-#### 4. **Connecting with Education and Cultural Tech**
-
-- Learning tools: soil networks, shrine zines, AI storytelling guides
-- Institutional ties with museums, schools, municipalities, NPOs
+The CANW MVP is only an “entry point.” Going forward, it will expand in the following directions:
 
 ---
+
+### 1. Evolving as a Study in Complex Systems UI/UX
+
+We aim to pursue UI design that lets users “feel” the intricate structures—like fungal networks and shrine networks.
+The ultimate goal is to offer these emergent works themselves as nonlinear, immersive experiences.
+
+### 2. Exploring the Space Between Digital and Nature
+
+Translating the sensibilities we gain from the field—soil, terraces, shrines, shell mounds—into the web,
+we seek to elevate these expressions so that the subtle atmospheres and presences between nature and culture can be felt even in digital space.
+
+### 3. Linking with OSS Values, Education, Culture, and Cultural-Tech
+
+We’re committed to advancing multilingual and multicultural adaptations on an OSS basis.
+With an eye toward bilingual/English publications and global outreach, we’ll explore applications at the intersection of education, research, and culture.
+
+Through collaborations with museums, schools, local governments, and NPOs,
+we also aim to serve as a laboratory for cultural implementation.
 
 ### 🤝 A Participatory Stratum
 
@@ -71,3 +68,11 @@ Observation, storytelling, walking landforms, composing poetic fragments—all a
 We’ll keep sharing this nonlinear project through note, LinkedIn, Threads, and beyond.
 
 We hope you’ll join this network from your own unique perspective.
+
+### 🔗 Related Links
+
+GitHub (CANW Main Repository)
+https://github.com/satoshi-create/complexity-and-network-webdesign
+
+LinkedIn (For international updates)
+https://www.linkedin.com/in/satoprofile/
