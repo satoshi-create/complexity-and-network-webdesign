@@ -76,3 +76,20 @@ https://github.com/satoshi-create/complexity-and-network-webdesign
 
 LinkedIn (For international updates)
 https://www.linkedin.com/in/satoprofile/
+
+### 📚 Series: "CANW — Emergent Networks" (All 5 Posts)
+
+1️⃣ #01 What is CANW?
+https://substack.com/home/post/p-163447068?source=queue
+
+2️⃣ #02 Emakimono Viewer
+https://substack.com/home/post/p-163812808?source=queue
+
+3️⃣ #03 From RDB to Network
+https://substack.com/home/post/p-164129905?source=queue
+
+4️⃣ #04 AI Collaboration
+https://substack.com/home/post/p-164526570
+
+5️⃣ #05 Vital / Emergent
+https://substack.com/home/post/p-164851052?source=queue
