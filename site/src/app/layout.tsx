@@ -1,7 +1,8 @@
+import "./globals.css";
+
 export const metadata = {
-  title: "CANW – Complexity And Network Webdesign",
-  description:
-    "Exploring biological, cultural, and emergent complexity on the web.",
+  title: "CANW",
+  description: "Complexity And Network Webdesign",
 };
 
 export default function RootLayout({

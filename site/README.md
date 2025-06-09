@@ -1,63 +1,36 @@
-# 🌐 CANW Web Site
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This folder contains the source code for the **official website of CANW (Complexity And Network Webdesign)**.
+## Getting Started
 
-The website is designed to:
-
-- Present the project's philosophy and subprojects in a clear and inspiring way
-- Serve as a hub for contributors, collaborators, and curious visitors
-- Experiment with new forms of complexity-aware web design
-
----
-
-## 🚀 Tech Stack (suggested)
-
-We recommend using either:
-
-- [**Astro**](https://astro.build) — lightweight, content-first, Markdown-friendly
-- [**Next.js**](https://nextjs.org) — powerful React framework with dynamic capabilities
-
-> You’re free to rebuild or restructure this site! The structure should follow open and composable principles.
-
----
-
-## 🏗️ Structure
-
-Typical folders might include:
-
-```
-site/
-├── public/          # Static assets (favicon, images, etc.)
-├── pages/           # Route-based pages (for Next.js) or src/pages for Astro
-├── components/      # Reusable UI components
-├── styles/          # Global CSS, Tailwind configs, etc.
-├── data/            # Project data in Markdown, JSON, YAML
-├── README.md        # ← You are here
-```
-
----
-
-## 🛠️ Getting Started
-
-To develop locally:
+First, run the development server:
 
 ```bash
-cd site
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Visit `http://localhost:3000` (or specified port) to view the site.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ✨ Ideas to Explore
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Scroll-based narrative design (for Emaki-style interfaces)
-- Visualizing networks from RDB or data
-- Embedding AI-generated insights
-- Contributor-friendly blog posts or update sections
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-Let’s make the web wondrous again — together 🌱
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
