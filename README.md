@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Part of CANW](https://img.shields.io/badge/CANW-ecosystem-blueviolet)](https://github.com/satoshi-create/complexity-and-network-webdesign)
 [![Wiki](https://img.shields.io/badge/Wiki-Explore%20More-blue)](https://github.com/satoshi-create/complexity-and-network-webdesign/wiki)
-![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)
+[![Contributors](https://img.shields.io/github/contributors/satoshi-create/complexity-and-network-webdesign?color=brightgreen)](https://github.com/satoshi-create/complexity-and-network-webdesign/graphs/contributors)
 ![Open to Collaboration](https://img.shields.io/badge/Open%20to-Collaboration-6f42c1?style=flat-square&logo=Handshake&logoColor=white)
 ![協働歓迎](https://img.shields.io/badge/%E5%8D%94%E5%83%8D-%E6%AD%93%E8%BF%8E-brightgreen?style=flat-square)
 
