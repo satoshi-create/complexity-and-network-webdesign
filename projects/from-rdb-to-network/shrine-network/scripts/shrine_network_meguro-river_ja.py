@@ -3,10 +3,10 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 import matplotlib.font_manager as fm
-
 import matplotlib
 matplotlib.use("TkAgg")  # 明示的にGUIバックエンドを設定
 import matplotlib
+
 print(f"現在のバックエンド: {matplotlib.get_backend()}")
 # 実際に使われているフォントを確認
 print("現在のフォント:", plt.rcParams["font.family"])
@@ -14,9 +14,9 @@ print("現在のフォント:", plt.rcParams["font.family"])
 plt.rcParams['font.family'] = 'Meiryo'
 plt.rcParams['axes.unicode_minus'] = False  # マイナス記号も日本語フォントで出すため
 
-df_shrine = pd.read_csv("../data/shrine.csv")
+df_shrine = pd.read_csv("../data/shrine_meguro-river.csv")
 df_deity = pd.read_csv("../data/deity.csv")
-df_relation = pd.read_csv("../data/shrine_deity.csv")
+df_relation = pd.read_csv("../data/shrine_deity_meguro-river.csv")
 
 
 G = nx.Graph()
@@ -97,7 +97,7 @@ for (u, v, data) in G.edges(data=True):
 
 plt.margins(0.1)
 # plt.title("神社×神々ネットワーク", fontsize=16)
-ax.set_title("神社×神々ネットワーク", fontsize=16)  # ← plt.title() ではなく ax.set_title()
+ax.set_title("神社×神々ネットワーク - 四天王寺七宮", fontsize=16)  # ← plt.title() ではなく ax.set_title()
 plt.axis("off")
 plt.tight_layout()
 # plt.savefig("shrine_network_demo_with_deity_en.png")

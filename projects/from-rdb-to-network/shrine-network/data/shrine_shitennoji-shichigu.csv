@@ -1,0 +1,9 @@
+﻿id,name,name_en,deities,founded,lat,lng,type,type_en,category,category_en,river_area,river_area_en,note_summary,note_summary_en,ref_url,img_url,日付
+1,大江神社,Oe Shrine,"素盞嗚尊, 大国主命, 欽明天皇, 少彦名神",,34.656,135.5217,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,七宮の一つ、現在も現存。上之宮・小儀・土塔を合祀。,"One of the Shichigu shrines, still existing. Enshrined deities from Kaminomiya, Kogi, and Dotou Shrines.",,,
+2,上之宮神社（跡地）,Kaminomiya Shrine (Site),,,34.6555,135.5222,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,大江神社に合祀。現在は碑があるのみ。,Merged into Oe Shrine. Only a monument remains.,,,
+3,小儀神社（跡地）,Kogi Shrine (Site),,,34.655,135.5198,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,大江神社に合祀された神社。,Merged into Oe Shrine.,,,
+4,久保神社,Kubo Shrine,"天照大御神, 素盞嗚尊, 伊邪那美命, 伊邪那岐命",,34.6532,135.5178,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,現存する七宮のひとつ。,One of the existing Shichigu shrines.,,,
+5,土塔神社（跡地）,Dotou Shrine (Site),,,34.6525,135.5185,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,合祀済みで跡地不明瞭。,Merged into another shrine; site is unclear.,,,
+6,河堀稲生神社,Kobore Inari Shrine,"宇迦能御魂命, 素盞嗚尊, 崇峻天皇",,34.6515,135.5167,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,読みは「こぼれいのう」。現存。,Read as 'Kobore Inou'; still existing.,,,
+7,堀越神社,Horikoshi Shrine,"崇峻天皇, 錦代皇女, 蜂子皇子, 小手姫皇后",,34.6538,135.5156,神社,Shinto Shrine,四天王寺七宮,Shitennoji Shichigu,無,None,四天王寺の北西・谷頭に位置。現存。,Located northwest of Shitennoji at the head of a valley. Still existing.,,,
+8,四天王寺,Shitenno-ji Temple,,593,34.6534,135.5197,寺,Temple,中心伽藍,Central Temple,無,None,聖徳太子創建の日本最古級の寺院。,"One of Japan's oldest temples, founded by Prince Shotoku.",https://www.shitennoji.or.jp/,,
