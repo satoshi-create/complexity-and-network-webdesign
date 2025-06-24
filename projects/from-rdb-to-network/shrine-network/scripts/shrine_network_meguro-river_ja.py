@@ -97,7 +97,7 @@ for (u, v, data) in G.edges(data=True):
 
 plt.margins(0.1)
 # plt.title("神社×神々ネットワーク", fontsize=16)
-ax.set_title("神社×神々ネットワーク - 四天王寺七宮", fontsize=16)  # ← plt.title() ではなく ax.set_title()
+ax.set_title("神社×神々ネットワーク", fontsize=16)  # ← plt.title() ではなく ax.set_title()
 plt.axis("off")
 plt.tight_layout()
 # plt.savefig("shrine_network_demo_with_deity_en.png")
