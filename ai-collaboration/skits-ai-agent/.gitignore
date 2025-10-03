@@ -173,3 +173,5 @@ tmp/**/*
 # ただし、.gitkeepファイルは保持
 !tmp/**/.gitkeep
 !**/tmp/**/.gitkeep
+
+get_api.py
