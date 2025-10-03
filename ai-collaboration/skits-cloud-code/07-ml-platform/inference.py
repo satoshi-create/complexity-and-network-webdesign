@@ -1,0 +1,3 @@
+import joblib
+model = joblib.load('model.pkl')
+print(model.predict([[5.1, 3.5, 1.4, 0.2]]))

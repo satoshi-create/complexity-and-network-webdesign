@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM `my_dataset.my_table`;
