@@ -21,7 +21,7 @@ graph TD
 ### CLI 例
 
 ```bash
-aws s3 mb s3://my-first-bucket-20251003
+aws s3 mb s3://my-first-bucket-202XXXXX
 
 ```
 
@@ -59,14 +59,14 @@ aws s3 ls
 ### アップロード
 
 ```bash
-aws s3 cp index.html s3://my-first-bucket-20251003/
+aws s3 cp index.html s3://my-first-bucket-202XXXXX/
 
 ```
 
 ### 確認
 
 ```bash
-aws s3 ls s3://my-first-bucket-20251003/
+aws s3 ls s3://my-first-bucket-202XXXXX/
 
 ```
 
@@ -80,7 +80,7 @@ aws s3 ls s3://my-first-bucket-20251003/
 ### コマンド
 
 ```bash
-aws s3 website s3://my-first-bucket-20251003/ --index-document index.html
+aws s3 website s3://my-first-bucket-202XXXXX/ --index-document index.html
 
 ```
 
@@ -105,7 +105,7 @@ S3 ダッシュボード → バケット → 「プロパティ」 → 「静�
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-first-bucket-20251003/*"
+      "Resource": "arn:aws:s3:::my-first-bucket-202XXXXX/*"
     }
   ]
 }
@@ -114,7 +114,7 @@ S3 ダッシュボード → バケット → 「プロパティ」 → 「静�
 ### 適用
 
 ```bash
-aws s3api put-bucket-policy --bucket my-first-bucket-20251003 --policy file://bucket-policy.json
+aws s3api put-bucket-policy --bucket my-first-bucket-202XXXXX --policy file://bucket-policy.json
 
 ```
 
@@ -132,7 +132,7 @@ aws s3api put-bucket-policy --bucket my-first-bucket-20251003 --policy file://bu
   例：
 
   ```
-  http://my-first-bucket-20251003.s3-website-ap-northeast-1.amazonaws.com
+  http://my-first-bucket-202XXXXX.s3-website-ap-northeast-1.amazonaws.com
 
   ```
 
@@ -149,7 +149,7 @@ aws s3api put-bucket-policy --bucket my-first-bucket-20251003 --policy file://bu
 
 ```bash
 aws cloudfront create-distribution \
-  --origin-domain-name my-first-bucket-20251003.s3.ap-northeast-1.amazonaws.com \
+  --origin-domain-name my-first-bucket-202XXXXX.s3.ap-northeast-1.amazonaws.com \
   --default-root-object index.html > cloudfront.json
 
 ```
@@ -192,7 +192,7 @@ https://d3estvsmqhxwn3.cloudfront.net/index.html
 
 ```bash
 aws s3api put-public-access-block \
-  --bucket my-first-bucket-20251003 \
+  --bucket my-first-bucket-202XXXXX \
   --public-access-block-configuration '{
     "BlockPublicAcls": true,
     "IgnorePublicAcls": true,
