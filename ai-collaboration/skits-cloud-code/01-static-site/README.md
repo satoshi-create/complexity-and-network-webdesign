@@ -204,6 +204,5 @@ aws s3api put-public-access-block \
 
 1. **CloudFront OAI / OAC を作成して、S3 にだけアクセス許可を与える**
 
-   （ここは追加学習ステップ）
 
 ---
