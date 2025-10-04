@@ -1,25 +1,32 @@
-# 1. バケット作成（例: my-static-site-202510）
-aws s3 mb s3://my-static-site-202510
+#!/bin/bash
 
-# 2. index.html をアップロード
-aws s3 cp index.html s3://my-static-site-202510/
+# UseCase 01: Static Site デプロイスクリプト
+# S3バケット作成からCloudFront配信まで
 
-# 3. バケットをウェブサイト用に設定
-aws s3 website s3://my-static-site-202510/ --index-document index.html
+# 1. S3 バケット作成
+aws s3 mb s3://my-first-bucket-20251003
 
-# 4. バケットポリシーを追加して公開設定（誰でも閲覧できるようにする）
-cat > bucket-policy.json <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-static-site-202510/*"
-    }
-  ]
-}
-EOF
+# 2. index.html アップロード
+aws s3 cp index.html s3://my-first-bucket-20251003/
 
-aws s3api put-bucket-policy --bucket my-static-site-202510 --policy file://bucket-policy.json
+# 3. 静的ウェブサイトホスティング有効化
+aws s3 website s3://my-first-bucket-20251003/ --index-document index.html
+
+# 4. バケットポリシー適用（公開許可）
+aws s3api put-bucket-policy \\
+  --bucket my-first-bucket-20251003 \\
+  --policy file://bucket-policy.json
+
+# 5. 公開URL確認 (S3)
+echo "S3 Website URL:"
+echo "http://my-first-bucket-20251003.s3-website-ap-northeast-1.amazonaws.com"
+
+# 6. CloudFront ディストリビューション作成
+aws cloudfront create-distribution \\
+  --origin-domain-name my-first-bucket-20251003.s3.ap-northeast-1.amazonaws.com \\
+  --default-root-object index.html > cloudfront.json
+
+# 7. CloudFront URL確認
+CLOUDFRONT_DOMAIN=$(jq -r '.Distribution.DomainName' cloudfront.json)
+echo "CloudFront URL:"
+echo "https://$CLOUDFRONT_DOMAIN/index.html"

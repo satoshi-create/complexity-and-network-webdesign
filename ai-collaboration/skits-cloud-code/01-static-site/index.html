@@ -3,12 +3,103 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Hello Cloud</title>
+  <title>偏差値サイト - 文化祭プロジェクト</title>
+  <style>
+    body {
+      font-family: "Hiragino Sans", sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .scene {
+      margin: 40px 0;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    img.chara {
+      height: 600px;
+      width: auto;
+    }
+
+    img.storage {
+      height: auto;
+      width: auto;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      margin: 40px 0;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>🌐 Hello Cloud World!</h1>
-  <p>これはS3に置いた静的サイトです。</p>
+  <header>
+    <h1>偏差値サイト</h1>
+    <p>文化祭ステージにて公開中！</p>
+  </header>
+
+  <main>
+    <div class="scene">
+      <h2>SDGz シュンの宣言</h2>
+      <p>「偏差値こそ俺の価値や！ この“文化祭サイト”で、全国模試級のアクセスにも耐えてみせる！」</p>
+      <a href="https://sour-brain-48f.notion.site/SDGz-259994f0dfcd80348525d9edbce0186a?source=copy_link"
+        target="_blank">
+        <img src="images/shun.png" alt="シュンのイラスト" class="chara">
+      </a>
+    </div>
+
+    <div class="scene">
+      <h2>倉庫番と照明さんの裏方仕事</h2>
+      <p>倉庫番 S3「index.html、style.css、画像データ……すべて棚に収めました！」</p>
+      <p>照明さん CloudFront「観客は世界中にいるんだ！ 最寄りから光速で届けるのさ！」</p>
+      <img src="images/storage.png" alt="倉庫イメージ" class="storage">
+    </div>
+
+    <div class="scene">
+      <h2>高尾山のウサオ</h2>
+      <p>ウサオ「……おかしなやつだなー。“偏差値至上主義”とか書いてあるぞ……」</p>
+      <a href="https://sour-brain-48f.notion.site/259994f0dfcd80b4a837f9e4e82e2f4e?source=copy_link" target="_blank">
+        <img src="images/usao.png" alt="ウサオ" class="chara">
+      </a>
+    </div>
+
+    <div class="scene">
+      <h2>まとめ</h2>
+      <p>S3 は保存、CloudFront は配信。<br>
+        ユーザーのアップロードがトリガーとなり、裏方の連携によって静的サイトが“世界に光る”舞台へと変わります。</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 偏差値サイト文化祭プロジェクト</p>
+  </footer>
 </body>
 
 </html>
