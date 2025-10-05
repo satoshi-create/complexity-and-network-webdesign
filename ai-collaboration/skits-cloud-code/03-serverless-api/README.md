@@ -12,6 +12,23 @@ graph TD
   User --> APIGW --> Lambda
   Lambda -.-> BigQuery
 ```
+---
+
+## 📑 目次
+- [概要](#サーバーレス-api)
+- [構成図](#構成図)
+- [🪜 Step 1: Lambda 関数を作成](#-step-1-lambda-関数を作成)
+- [🪜 Step 2: 関数を ZIP 化（Windows PowerShell の場合）](#-step-2-関数を-zip-化windows-powershell-の場合)
+- [🪜 Step 3: IAM ロールを作成（Lambda 実行権限）](#-step-3-iam-ロールを作成lambda-実行権限)
+- [🪜 Step 4: Lambda 関数を AWS にデプロイ](#-step-4-lambda-関数を-aws-にデプロイ)
+- [🪜 Step 5: API Gateway を作成](#-step-5-api-gateway-を作成)
+- [🪜 Step 6: status リソースを作成](#-step-6-status-リソースを作成)
+- [🪜 Step 7: GET メソッドを追加し、Lambda と統合](#-step-7-get-メソッドを追加しlambda-と統合)
+- [🪜 Step 8: API Gateway に Lambda 実行権限を付与](#-step-8-api-gateway-に-lambda-実行権限を付与)
+- [🪜 Step 9: API をデプロイ](#-step-9-api-をデプロイ)
+- [🪜 Step 10: 動作確認（ブラウザ or curl）](#-step-10-動作確認ブラウザ-or-curl)
+
+---
 
 ### 🪜 Step 1: Lambda 関数を作成
 
