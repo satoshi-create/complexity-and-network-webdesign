@@ -2,6 +2,17 @@
 
 AWS Lambda で簡単な API を構築する手順。
 
+```mermaid
+graph TD
+  User["ユーザー（孫のスマホ）"]
+  APIGW["門番API Gateway｜助演"]
+  Lambda["一芸役者Lambda｜主役"]
+  BigQuery["評論家BigQuery｜カメオ出演"]
+
+  User --> APIGW --> Lambda
+  Lambda -.-> BigQuery
+```
+
 🪜 Step 1: Lambda 関数を作成
 
 # 作業ディレクトリを作る
@@ -20,10 +31,10 @@ return {
 "body": json.dumps(message, ensure_ascii=False)
 }' > lambda_function.py
 
-🪜 Step 2: 関数を ZIP 化（Windows PowerShell の場合）
+### 🪜 Step 2: 関数を ZIP 化（Windows PowerShell の場合）
 Compress-Archive -Path lambda_function.py -DestinationPath function.zip -Force
 
-🪜 Step 3: IAM ロールを作成（Lambda 実行権限）
+### 🪜 Step 3: IAM ロールを作成（Lambda 実行権限）
 
 trust-policy.json
 
@@ -44,7 +55,7 @@ aws iam create-role `  --role-name lambda-ex-role`
 aws iam attach-role-policy `  --role-name lambda-ex-role`
 --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
 
-🪜 Step 4: Lambda 関数を AWS にデプロイ
+### 🪜 Step 4: Lambda 関数を AWS にデプロイ
 aws lambda create-function `  --function-name hello-nara-api`
 --runtime python3.9 `  --role arn:aws:iam::<アカウントID>:role/lambda-ex-role`
 --handler lambda_function.lambda_handler `
@@ -55,18 +66,18 @@ aws lambda create-function `  --function-name hello-nara-api`
 aws lambda invoke --function-name hello-nara-api --payload '{}' response.json
 type response.json
 
-🪜 Step 5: API Gateway を作成
+### 🪜 Step 5: API Gateway を作成
 aws apigateway create-rest-api --name "NaraDeliveryAPI"
 
 取得した "id" を <API_ID> に置き換える。
 
-🪜 Step 6: /status リソースを作成
+### 🪜 Step 6: /status リソースを作成
 aws apigateway get-resources --rest-api-id <API_ID>
 aws apigateway create-resource `  --rest-api-id <API_ID>`
 --parent-id <ROOT_ID> `
 --path-part status
 
-🪜 Step 7: GET メソッドを追加し、Lambda と統合
+### 🪜 Step 7: GET メソッドを追加し、Lambda と統合
 aws apigateway put-method `  --rest-api-id <API_ID>`
 --resource-id <RESOURCE_ID> `  --http-method GET`
 --authorization-type "NONE"
@@ -76,17 +87,17 @@ aws apigateway put-integration `  --rest-api-id <API_ID>`
 --type AWS_PROXY `  --integration-http-method POST`
 --uri arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:<ACCOUNT_ID>:function:hello-nara-api/invocations
 
-🪜 Step 8: API Gateway に Lambda 実行権限を付与
+### 🪜 Step 8: API Gateway に Lambda 実行権限を付与
 aws lambda add-permission `  --function-name hello-nara-api`
 --statement-id apigateway-permission `  --action lambda:InvokeFunction`
 --principal apigateway.amazonaws.com `
 --source-arn arn:aws:execute-api:ap-northeast-1:<ACCOUNT_ID>:<API_ID>/\*/GET/status
 
-🪜 Step 9: API をデプロイ
+### 🪜 Step 9: API をデプロイ
 aws apigateway create-deployment `  --rest-api-id <API_ID>`
 --stage-name dev
 
-🪜 Step 10: 動作確認（ブラウザ or curl）
+### 🪜 Step 10: 動作確認（ブラウザ or curl）
 https://<API_ID>.execute-api.ap-northeast-1.amazonaws.com/dev/status
 
 ✅ 期待されるレスポンス
