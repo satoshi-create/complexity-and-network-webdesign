@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ゴジュエモンタクシー配車アプリ</title>
+    <style>
+        body {
+            font-family: "Hiragino Sans", sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🚕 ゴジュエモンタクシー 配車アプリ</h1>
+    <button id="callRide">配車リクエストする</button>
+    <div id="result"></div>
+
+    <script>
+        const apiUrl = "https://558xs7sti8.execute-api.ap-northeast-1.amazonaws.com/prod/ride";
+
+
+
+        document.getElementById("callRide").addEventListener("click", async () => {
+            document.getElementById("result").innerText = "リクエスト送信中...";
+            try {
+                const res = await fetch(apiUrl, { method: "POST" });
+                const data = await res.json();
+                document.getElementById("result").innerHTML = `
+          <p>✅ 配車完了！</p>
+          <p>Order ID: <b>${data.orderId}</b></p>
+          <p>ドライバー: ${data.driverName}</p>
+          <p>到着予定: ${data.eta}</p>
+        `;
+            } catch (err) {
+                document.getElementById("result").innerText = "💥 エラー: " + err;
+            }
+        });
+    </script>
+</body>
+
+</html>

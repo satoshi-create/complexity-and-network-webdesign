@@ -1,0 +1,6 @@
+﻿{
+  "orderId": { "S": "001" },
+  "driverName": { "S": "ゴジュエモンタクシー" },
+  "eta": { "S": "3分後" },
+  "status": { "S": "on_the_way" }
+}
