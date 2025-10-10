@@ -176,8 +176,8 @@ tmp/**/*
 
 
 # use-case
+aws_command.sh
 
 # 04-dynamic-webapp
-aws_command.sh
 config-only.json
 dist-config.json
